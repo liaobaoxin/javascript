@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //        字面量方式创建对象
+        var obj = {};//空对象
+        //添加属性
+        obj.name = "张三";
+        obj.age = 20;
+        obj.say = function () {
+            console.log("name" + this.name + "age" + this.age);
+        }
+        obj.say();
+
+        var obj2 = {
+            name: "李四",
+            age: "23",
+            eat: function () {
+                console.log("吃了");
+            },
+            say: function () {
+                console.log("name" + this.name + "age" + this.age);
+            }
+        }
+
+        obj2.say();
+        obj2.eat();
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>

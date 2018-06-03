@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>调用系统的构造函数创建对象</title>
+    <script>
+        var obj=new Object();
+        obj.name="张三";
+        obj.age=18;
+        obj.sex="男";
+
+        obj.eat=function () {
+            console.log("吃饭");
+        };
+        obj.play=function () {
+          console.log("玩");
+        };
+
+        console.log(obj.name);
+        console.log(obj.age);
+        console.log(obj.sex);
+        obj.eat();
+        obj.play();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

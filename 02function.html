@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /* function fn() {
+             var length = arguments.length;
+             console.log(length);
+             console.log(arguments)
+
+         }
+
+         fn(3,5);*/
+
+        /* function f1() {
+             console.log("嘿嘿");
+         }
+         console.log("=="+f1)*/
+
+        //函数自调用
+        (function () {
+            console.log("嘿嘿");
+        })();
+
+        function f1() {
+            console.log("哈哈");
+        }
+        console.log(typeof f1)
+
+        function f2(name,age) {
+            console.log("嘎嘎");
+
+        }
+        f2();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

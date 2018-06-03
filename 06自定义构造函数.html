@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+       /* 1.在内存中开辟空间（申请一块空闲空间），存储创建新的对象
+        2.把this设置为当前对象
+        3.设置对象的属性值和方法的值
+        4.把this这个对象返回*/
+
+        function Cat(name, age) {
+            this.name = name;
+            this.age = age;
+            this.say = function () {
+                console.log("姓名" + name + "年龄" + age);
+            }
+        }
+
+        var cat = new Cat("咖啡猫",18);
+        cat.say();
+        console.log(typeof cat);
+        console.log(cat instanceof Cat);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

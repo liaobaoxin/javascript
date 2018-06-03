@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function f1() {
+            console.log("函数f1调用成功");
+            return function () {
+                console.log("匿名函数调用成功");
+            }
+        }
+
+        var f3=f1();
+        f3();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
