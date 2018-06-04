@@ -14,17 +14,22 @@
             console.log(key + "=======" + arr[key]);
         }
 
+
         function Cat(name, age) {
             this.name = name;
             this.age = age;
+            this.sex='女';
             this.say=function () {
               console.log(this.name+"____"+this.age);
             };
         }
         var cat = new Cat("咖啡猫","18");
+
         for(var key in  cat){
             console.log(key+"====="+cat[key]);
         }
+        var length  = Object.keys(cat).length ;
+        alert(length)
     </script>
 </head>
 <body>

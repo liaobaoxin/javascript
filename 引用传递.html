@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function Persion(name,age,salary) {
+            this.name=name;
+            this.age=age;
+            this.salary=salary;
+        }
+        function f1(persion) {
+            persion.name="ls";
+            persion=new Persion("aa",18,10);
+        }
+
+        var p=new Persion("zs",18,1000);
+        console.log(p.name);
+        f1(p);
+        console.log(p.name);
+        console.log(persion.name);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
