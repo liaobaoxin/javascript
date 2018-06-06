@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var str = "asdASDASasdadSADaASDAVDFGSJKLasa";
+        var obj = {};
+        for (var i = 0; i < str.length; i++) {
+            var key = str[i];
+            if (obj[key]) {
+                obj[key]++;
+            } else {
+                obj[key]=1;
+            }
+        }
+
+        for(key in obj){
+            console.log(key+"这个字符出现了"+obj[key]+"次")
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
