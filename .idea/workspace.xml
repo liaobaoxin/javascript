@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a4e1a45-a0fd-4e05-b83b-d7ef535e6e0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/01DOM操作.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/02点击按钮显示图片.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/03修改a标签内容.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../javascript学习/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../javascript学习/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/01test.html" afterPath="$PROJECT_DIR$/../javascript学习/基础js/01test.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/02function.html" afterPath="$PROJECT_DIR$/../javascript学习/基础js/02function.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/03函数作为返回值使用.html" afterPath="$PROJECT_DIR$/../javascript学习/基础js/03函数作为返回值使用.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/04调用系统的构造函数创建对象.html" afterPath="$PROJECT_DIR$/../javascript学习/基础js/04调用系统的构造函数创建对象.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/05字面量方式创建对象.html" afterPath="$PROJECT_DIR$/../javascript学习/基础js/05字面量方式创建对象.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/06自定义构造函数.html" afterPath="$PROJECT_DIR$/../javascript学习/基础js/06自定义构造函数.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/07预解析.html" afterPath="$PROJECT_DIR$/../javascript学习/基础js/07预解析.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/08JSON遍历.html" afterPath="$PROJECT_DIR$/../javascript学习/基础js/08JSON遍历.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/09字符串案例.html" afterPath="$PROJECT_DIR$/../javascript学习/基础js/09字符串案例.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/引用传递.html" afterPath="$PROJECT_DIR$/../javascript学习/基础js/引用传递.html" />
     </list>
     <ignored path="$PROJECT_DIR$/../javascript学习/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +25,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02点击按钮显示图片.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="02点击按钮显示图片.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/02点击按钮显示图片.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
               <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02设置P标签内容.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/02设置P标签内容.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03修改a标签内容.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/03修改a标签内容.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -79,6 +88,8 @@
         <option value="$PROJECT_DIR$/../javascript学习/09字符串案例.html" />
         <option value="$PROJECT_DIR$/../javascript学习/webApi/DOM操作.html" />
         <option value="$PROJECT_DIR$/../javascript学习/webApi/02点击按钮显示图片.html" />
+        <option value="$PROJECT_DIR$/../javascript学习/webApi/02设置P标签内容.html" />
+        <option value="$PROJECT_DIR$/../javascript学习/webApi/03修改a标签内容.html" />
       </list>
     </option>
   </component>
@@ -259,7 +270,7 @@
       <workItem from="1527981993840" duration="11724000" />
       <workItem from="1528116824064" duration="2034000" />
       <workItem from="1528285896380" duration="3835000" />
-      <workItem from="1528374175904" duration="1130000" />
+      <workItem from="1528374175904" duration="2265000" />
     </task>
     <task id="LOCAL-00001" summary="引用传递">
       <created>1528117633943</created>
@@ -275,11 +286,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528294281780</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="点击按钮显示图片">
+      <created>1528379348748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528379348748</updated>
+    </task>
+    <task id="LOCAL-00004" summary="02设置P标签内容.html">
+      <created>1528379700432</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528379700432</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20974000" />
+    <option name="totallyTimeSpent" value="22109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -322,7 +347,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="引用传递" />
     <MESSAGE value="引用传递  字符串案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="引用传递  字符串案例" />
+    <MESSAGE value="点击按钮显示图片" />
+    <MESSAGE value="02设置P标签内容.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="02设置P标签内容.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -460,6 +487,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/02设置P标签内容.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/03修改a标签内容.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding />
         </state>
       </provider>
