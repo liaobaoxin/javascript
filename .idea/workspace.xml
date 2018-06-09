@@ -2,83 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a4e1a45-a0fd-4e05-b83b-d7ef535e6e0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/01阻止超链接跳转.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/0f000PC3L7v5WMl_8bcCX6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/1-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/111.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/2-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/222.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/3-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/333.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/4-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/456.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/5-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/bgs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/bird.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/birdfly.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/boduo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/bpic_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/cangjingkong.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/cloud.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/content_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/default.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/lb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/lb2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/lb3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/lb4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/lb5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/libai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/linzhiling.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/liuyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/main.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/mm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/noavatar_small.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/right.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/search.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/taobao.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/tianshi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/tip1_c.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/tip1_f.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/tip1_h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/xiaoniao.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/卡卡西.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/大蛇丸.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/images/百度换肤.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/02案例美女相册.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/common.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../javascript学习/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../javascript学习/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/01DOM操作.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/01DOM操作.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/02点击按钮显示图片.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/02点击按钮显示图片.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/02设置P标签内容.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/02设置P标签内容.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/03修改a标签内容.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/03修改a标签内容.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/04点击按钮修改多个p标签的文字内容.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/04点击按钮修改多个p标签的文字内容.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/05点击按钮修改所有文本框的值.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/05点击按钮修改所有文本框的值.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/06点击按钮修改value值.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/06点击按钮修改value值.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/07案例排他功能.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/07案例排他功能.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/08点小图变大图.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/08点小图变大图.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/09点击按钮修改图片.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/09点击按钮修改图片.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/10点击按钮修改性别.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/10点击按钮修改性别.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/11点击按钮修改div宽高颜色.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/11点击按钮修改div宽高颜色.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/12点击按钮显示和隐藏.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/12点击按钮显示和隐藏.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/13div的显示和隐藏通过类样式实现.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/13div的显示和隐藏通过类样式实现.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/common.js" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/common.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/0f000PC3L7v5WMl_8bcCX6.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/0f000PC3L7v5WMl_8bcCX6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/1-small.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/1-small.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/1.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/1.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/11.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/11.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/111.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/111.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/12.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/12.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/13.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/13.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/14.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/14.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/15.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/15.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/2-small.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/2-small.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/2.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/2.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/2.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/222.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/222.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/3-small.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/3-small.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/3.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/333.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/333.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/4-small.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/4-small.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/4.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/456.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/456.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/5-small.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/5-small.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/5.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/bg.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/bgs.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/bgs.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/bird.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/bird.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/birdfly.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/birdfly.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/boduo.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/boduo.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/bpic_1.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/bpic_1.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/cangjingkong.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/cangjingkong.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/cloud.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/cloud.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/content.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/content.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/content_bg.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/content_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/default.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/default.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/lb1.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/lb1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/lb2.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/lb2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/lb3.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/lb3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/lb4.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/lb4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/lb5.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/lb5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/left.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/left.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/libai.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/libai.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/linzhiling.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/linzhiling.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/liuyan.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/liuyan.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/main.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/main.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/mm.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/mm.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/nav.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/nav.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/noavatar_small.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/noavatar_small.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/placeholder.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/placeholder.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/right.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/right.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/rss.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/rss.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/search.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/search.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/taobao.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/taobao.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/tianshi.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/tianshi.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/tip1_c.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/tip1_c.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/tip1_f.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/tip1_f.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/tip1_h.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/tip1_h.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/top.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/top.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/xiaoniao.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/xiaoniao.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/卡卡西.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/卡卡西.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/大蛇丸.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/大蛇丸.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/百度换肤.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/百度换肤.png" />
     </list>
     <ignored path="$PROJECT_DIR$/../javascript学习/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,11 +86,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01阻止超链接跳转.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01阻止超链接跳转.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../javascript学习/02webApi/01阻止超链接跳转.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02案例美女相册.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../javascript学习/02webApi/02案例美女相册.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="61" column="43" lean-forward="true" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../javascript学习/02webApi/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -115,8 +121,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -159,6 +165,8 @@
         <option value="$PROJECT_DIR$/../javascript学习/webApi/12点击按钮显示和隐藏.html" />
         <option value="$PROJECT_DIR$/../javascript学习/webApi/13div的显示和隐藏通过类样式实现.html" />
         <option value="$PROJECT_DIR$/../javascript学习/02webApi/01阻止超链接跳转.html" />
+        <option value="$PROJECT_DIR$/../javascript学习/02webApi/common.js" />
+        <option value="$PROJECT_DIR$/../javascript学习/02webApi/02案例美女相册.html" />
       </list>
     </option>
   </component>
@@ -219,6 +227,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javascript学习\02webApi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\javascript学习\webApi" />
       <recent name="D:\javascript学习\基础js" />
@@ -336,7 +347,7 @@
       <workItem from="1528285896380" duration="3835000" />
       <workItem from="1528374175904" duration="2307000" />
       <workItem from="1528411587626" duration="2420000" />
-      <workItem from="1528508358938" duration="9496000" />
+      <workItem from="1528508358938" duration="10412000" />
     </task>
     <task id="LOCAL-00001" summary="引用传递">
       <created>1528117633943</created>
@@ -422,11 +433,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528532382154</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="01阻止超链接跳转.html">
+      <created>1528542133453</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528542133453</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34067000" />
+    <option name="totallyTimeSpent" value="34983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -478,7 +496,8 @@
     <MESSAGE value="10点击按钮修改性别.html" />
     <MESSAGE value="12点击按钮显示和隐藏.html,11点击按钮修改div宽高颜色.html" />
     <MESSAGE value="13div的显示和隐藏通过类样式实现.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="13div的显示和隐藏通过类样式实现.html" />
+    <MESSAGE value="01阻止超链接跳转.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="01阻止超链接跳转.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -809,6 +828,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../javascript学习/02webApi/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../javascript学习/02webApi/02案例美女相册.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="61" column="43" lean-forward="true" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
           <folding />
         </state>
       </provider>
