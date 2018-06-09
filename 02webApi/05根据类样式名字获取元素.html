@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="点击">
+<p class="cls">1</p><br>
+<p>2</p>
+<span class="cls">1</span><br>
+<span>2</span><br>
+<script src="common.js"></script>
+<script>
+    document.getElementsByTagName("input")[0].onclick = function () {
+        var objs = document.getElementsByClassName("cls");
+        for (var i = 0; i < objs.length; i++) {
+            objs[i].style.backgroundColor="yellow";
+        }
+    }
+</script>
+</body>
+</html>
