@@ -2,10 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a4e1a45-a0fd-4e05-b83b-d7ef535e6e0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/11点击按钮修改div宽高颜色.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/12点击按钮显示和隐藏.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/02webApi/01阻止超链接跳转.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../javascript学习/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../javascript学习/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/01DOM操作.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/01DOM操作.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/02点击按钮显示图片.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/02点击按钮显示图片.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/02设置P标签内容.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/02设置P标签内容.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/03修改a标签内容.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/03修改a标签内容.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/04点击按钮修改多个p标签的文字内容.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/04点击按钮修改多个p标签的文字内容.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/05点击按钮修改所有文本框的值.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/05点击按钮修改所有文本框的值.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/06点击按钮修改value值.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/06点击按钮修改value值.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/07案例排他功能.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/07案例排他功能.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/08点小图变大图.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/08点小图变大图.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/09点击按钮修改图片.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/09点击按钮修改图片.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/10点击按钮修改性别.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/10点击按钮修改性别.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/11点击按钮修改div宽高颜色.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/11点击按钮修改div宽高颜色.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/12点击按钮显示和隐藏.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/12点击按钮显示和隐藏.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/13div的显示和隐藏通过类样式实现.html" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/13div的显示和隐藏通过类样式实现.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/common.js" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/common.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/0f000PC3L7v5WMl_8bcCX6.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/0f000PC3L7v5WMl_8bcCX6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/1-small.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/1-small.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/1.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/1.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/11.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/11.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/111.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/111.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/12.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/12.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/13.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/13.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/14.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/14.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/15.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/15.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/2-small.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/2-small.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/2.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/2.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/2.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/222.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/222.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/3-small.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/3-small.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/3.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/333.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/333.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/4-small.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/4-small.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/4.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/456.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/456.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/5-small.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/5-small.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/5.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/bg.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/bgs.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/bgs.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/bird.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/bird.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/birdfly.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/birdfly.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/boduo.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/boduo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/bpic_1.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/bpic_1.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/cangjingkong.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/cangjingkong.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/cloud.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/cloud.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/content.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/content.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/content_bg.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/content_bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/default.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/default.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/lb1.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/lb1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/lb2.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/lb2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/lb3.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/lb3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/lb4.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/lb4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/lb5.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/lb5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/left.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/left.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/libai.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/libai.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/linzhiling.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/linzhiling.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/liuyan.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/liuyan.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/main.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/main.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/mm.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/mm.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/nav.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/noavatar_small.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/noavatar_small.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/placeholder.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/placeholder.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/right.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/right.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/rss.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/rss.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/search.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/search.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/taobao.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/taobao.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/tianshi.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/tianshi.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/tip1_c.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/tip1_c.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/tip1_f.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/tip1_f.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/tip1_h.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/tip1_h.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/top.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/top.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/xiaoniao.gif" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/xiaoniao.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/卡卡西.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/卡卡西.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/大蛇丸.jpg" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/大蛇丸.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../javascript学习/webApi/images/百度换肤.png" afterPath="$PROJECT_DIR$/../javascript学习/01webApi/images/百度换肤.png" />
     </list>
     <ignored path="$PROJECT_DIR$/../javascript学习/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,53 +90,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="09点击按钮修改图片.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/09点击按钮修改图片.html">
+      <file leaf-file-name="13div的显示和隐藏通过类样式实现.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/13div的显示和隐藏通过类样式实现.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="588">
+              <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10点击按钮修改性别.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/10点击按钮修改性别.html">
+      <file leaf-file-name="01阻止超链接跳转.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../javascript学习/02webApi/01阻止超链接跳转.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="11点击按钮修改div宽高颜色.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/11点击按钮修改div宽高颜色.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12点击按钮显示和隐藏.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/12点击按钮显示和隐藏.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -116,6 +157,8 @@
         <option value="$PROJECT_DIR$/../javascript学习/webApi/common.js" />
         <option value="$PROJECT_DIR$/../javascript学习/webApi/11点击按钮修改div宽高颜色.html" />
         <option value="$PROJECT_DIR$/../javascript学习/webApi/12点击按钮显示和隐藏.html" />
+        <option value="$PROJECT_DIR$/../javascript学习/webApi/13div的显示和隐藏通过类样式实现.html" />
+        <option value="$PROJECT_DIR$/../javascript学习/02webApi/01阻止超链接跳转.html" />
       </list>
     </option>
   </component>
@@ -157,12 +200,7 @@
             <path>
               <item name="javascript学习" type="b2602c69:ProjectViewProjectNode" />
               <item name="javascript学习" type="462c0819:PsiDirectoryNode" />
-              <item name="webApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javascript学习" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javascript学习" type="462c0819:PsiDirectoryNode" />
-              <item name="基础js" type="462c0819:PsiDirectoryNode" />
+              <item name="02webApi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,7 +336,7 @@
       <workItem from="1528285896380" duration="3835000" />
       <workItem from="1528374175904" duration="2307000" />
       <workItem from="1528411587626" duration="2420000" />
-      <workItem from="1528508358938" duration="7104000" />
+      <workItem from="1528508358938" duration="9496000" />
     </task>
     <task id="LOCAL-00001" summary="引用传递">
       <created>1528117633943</created>
@@ -370,11 +408,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528523622960</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="12点击按钮显示和隐藏.html,11点击按钮修改div宽高颜色.html">
+      <created>1528530477800</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528530477800</updated>
+    </task>
+    <task id="LOCAL-00012" summary="13div的显示和隐藏通过类样式实现.html">
+      <created>1528532382154</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1528532382154</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31675000" />
+    <option name="totallyTimeSpent" value="34067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -424,14 +476,16 @@
     <MESSAGE value="08点小图变大图.html" />
     <MESSAGE value="09点击按钮修改图片.html" />
     <MESSAGE value="10点击按钮修改性别.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="10点击按钮修改性别.html" />
+    <MESSAGE value="12点击按钮显示和隐藏.html,11点击按钮修改div宽高颜色.html" />
+    <MESSAGE value="13div的显示和隐藏通过类样式实现.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="13div的显示和隐藏通过类样式实现.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/01DOM操作.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/01DOM操作.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
@@ -439,7 +493,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/02点击按钮显示图片.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/02点击按钮显示图片.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
@@ -447,7 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/02设置P标签内容.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/02设置P标签内容.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
@@ -455,7 +509,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/03修改a标签内容.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/03修改a标签内容.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
@@ -463,7 +517,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/04点击按钮修改多个p标签的文字内容.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/04点击按钮修改多个p标签的文字内容.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
@@ -471,7 +525,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/05点击按钮修改所有文本框的值.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/05点击按钮修改所有文本框的值.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
@@ -479,7 +533,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/06点击按钮修改value值.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/06点击按钮修改value值.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
@@ -487,7 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/01DOM操作.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/01DOM操作.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
@@ -495,7 +549,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/02点击按钮显示图片.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/02点击按钮显示图片.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
@@ -503,7 +557,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/02设置P标签内容.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/02设置P标签内容.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
@@ -511,7 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/03修改a标签内容.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/03修改a标签内容.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
@@ -624,7 +678,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/01DOM操作.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/01DOM操作.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
@@ -632,12 +686,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/images/12.jpg">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/images/12.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/02点击按钮显示图片.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/02点击按钮显示图片.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
@@ -645,7 +699,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/02设置P标签内容.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/02设置P标签内容.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
@@ -653,7 +707,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/03修改a标签内容.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/03修改a标签内容.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
@@ -661,7 +715,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/04点击按钮修改多个p标签的文字内容.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/04点击按钮修改多个p标签的文字内容.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
@@ -669,7 +723,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/05点击按钮修改所有文本框的值.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/05点击按钮修改所有文本框的值.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
@@ -677,7 +731,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/06点击按钮修改value值.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/06点击按钮修改value值.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
@@ -685,7 +739,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/07案例排他功能.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/07案例排他功能.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
@@ -693,7 +747,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/08点小图变大图.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/08点小图变大图.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
@@ -701,7 +755,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/09点击按钮修改图片.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/09点击按钮修改图片.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
@@ -709,7 +763,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/10点击按钮修改性别.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/10点击按钮修改性别.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
@@ -717,7 +771,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/common.js">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
@@ -725,7 +779,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/11点击按钮修改div宽高颜色.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/11点击按钮修改div宽高颜色.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
@@ -733,13 +787,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/12点击按钮显示和隐藏.html">
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/12点击按钮显示和隐藏.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="462">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../javascript学习/01webApi/13div的显示和隐藏通过类样式实现.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../javascript学习/02webApi/01阻止超链接跳转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
