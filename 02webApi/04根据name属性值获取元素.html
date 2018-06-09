@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="显示效果" id="btn"><br>
+<input type="text" value="你好" name="name1"><br>
+<input type="text" value="你好" name="name1"><br>
+<input type="text" value="你好" name="name1"><br>
+<input type="text" value="你好" name="name1"><br>
+<input type="text" value="你好" name="name2"><br>
+<input type="text" value="你好" name="name1"><br>
+<input type="text" value="你好" name="name1"><br>
+<input type="text" value="你好" name="name1"><br>
+<input type="text" value="你好" name="name1"><br>
+<input type="text" value="你好" name="name1"><br>
+<input type="text" value="你好" name="name1"><br>
+<input type="text" value="你好" name="name1"><br>
+<input type="text" value="你好" name="name2"><br>
+<input type="text" value="你好" name="name2"><br>
+<script src="common.js"></script>
+<script>
+    my$('btn').onclick = function () {
+        var nodeList = document.getElementsByName("name1");
+        for (var i = 0; i < nodeList.length; i++) {
+            nodeList[i].value = "我很好";
+        }
+    }
+</script>
+</body>
+</html>
