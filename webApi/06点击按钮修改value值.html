@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="点击" id="btn1">
+<script>
+    var btnObj = document.getElementById("btn1");
+    btnObj.onclick=function () {
+        this.value="哈哈";
+        this.type="text";
+        this.id="btn2";
+    }
+</script>
+</body>
+</html>

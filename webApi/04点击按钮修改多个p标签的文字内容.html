@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" id="btn" value="点击">
+<div id="div1">
+    <p>这是第一个p</p>
+    <p>这是第一个p</p>
+    <p>这是第一个p</p>
+    <p>这是第一个p</p>
+    <p>这是第一个p</p>
+</div>
+<div id="div2">
+    <p>这是第二个p</p>
+    <p>这是第二个p</p>
+    <p>这是第二个p</p>
+    <p>这是第二个p</p>
+    <p>这是第二个p</p>
+</div>
+<script>
+    document.getElementById("btn").onclick=function () {
+        var pObj = document.getElementById("div1").getElementsByTagName("p");
+        for(var i=0;i<pObj.length;i++){
+            pObj[i].innerText="我是p";
+        }
+
+
+    }
+</script>
+</body>
+</html>
