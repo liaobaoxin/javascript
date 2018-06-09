@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="点击切换性别" id="btn1">
+<input type="radio" name="sex" value="1">男
+<input type="radio" name="sex" value="2" id="nv">女
+<input type="radio" name="sex" value="3">保密
+<script>
+    function my$(id) {
+        return document.getElementById(id);
+    }
+    my$("btn1").onclick=function () {
+        my$("nv").checked=true;
+    }
+</script>
+
+<br>
+<input type="button" value="点击切换兴趣" id="btn2">
+<input type="checkbox" >吃饭
+<input type="checkbox" >睡觉
+<input type="checkbox" id="dadoudou">打豆豆
+
+<script>
+    my$("btn2").onclick=function () {
+        my$("dadoudou").checked=true;
+    }
+</script>
+
+</body>
+</html>
