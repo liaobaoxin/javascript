@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul id="uu">
+    <li>哈哈</li>
+    <li>哈哈</li>
+    <li>哈哈</li>
+    <li>哈哈</li>
+    <li>哈哈</li>
+    <li>哈哈</li>
+    <li>哈哈</li>
+    <li>哈哈</li>
+</ul>
+<script src="common.js"></script>
+<script>
+    var liObjs = my$("uu").getElementsByTagName("li");
+    for (var i = 0; i < liObjs.length; i++) {
+        liObjs[i].onmouseout=function () {
+            this.style.backgroundColor="";
+        };
+        liObjs[i].onmouseover=function () {
+            this.style.backgroundColor="yellow";
+        };
+    }
+</script>
+</body>
+</html>
