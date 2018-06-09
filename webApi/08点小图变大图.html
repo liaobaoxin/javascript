@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a id="datu" href="images/1.jpg"><img src="images/1-small.jpg" id="xiaotu"></a>
+<script>
+    document.getElementById("datu").onclick = function () {
+        document.getElementById("xiaotu").src = document.getElementById("datu").href;
+        return false;
+    }
+</script>
+</body>
+</html>
