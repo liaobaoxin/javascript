@@ -2,9 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a4e1a45-a0fd-4e05-b83b-d7ef535e6e0f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/04点击按钮修改多个p标签的文字内容.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/05点击按钮修改所有文本框的值.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/06点击按钮修改value值.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/0f000PC3L7v5WMl_8bcCX6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/1-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/111.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/2-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/222.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/3-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/333.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/4-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/456.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/5-small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/bgs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/bird.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/birdfly.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/boduo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/bpic_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/cangjingkong.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/cloud.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/content_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/default.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/lb1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/lb2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/lb3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/lb4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/lb5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/libai.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/linzhiling.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/liuyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/main.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/mm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/noavatar_small.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/right.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/search.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/taobao.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/tianshi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/tip1_c.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/tip1_f.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/tip1_h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/xiaoniao.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/卡卡西.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/大蛇丸.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/images/百度换肤.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../javascript学习/webApi/09点击按钮修改图片.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../javascript学习/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../javascript学习/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../javascript学习/out/" />
@@ -17,71 +75,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="01DOM操作.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/01DOM操作.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02点击按钮显示图片.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/02点击按钮显示图片.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02设置P标签内容.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/02设置P标签内容.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="03修改a标签内容.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/03修改a标签内容.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="04点击按钮修改多个p标签的文字内容.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/04点击按钮修改多个p标签的文字内容.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="05点击按钮修改所有文本框的值.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/05点击按钮修改所有文本框的值.html">
+      <file leaf-file-name="09点击按钮修改图片.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/09点击按钮修改图片.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="06点击按钮修改value值.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/06点击按钮修改value值.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -126,6 +124,9 @@
         <option value="$PROJECT_DIR$/../javascript学习/webApi/04点击按钮修改多个p标签的文字内容.html" />
         <option value="$PROJECT_DIR$/../javascript学习/webApi/05点击按钮修改所有文本框的值.html" />
         <option value="$PROJECT_DIR$/../javascript学习/webApi/06点击按钮修改value值.html" />
+        <option value="$PROJECT_DIR$/../javascript学习/webApi/07案例排他功能.html" />
+        <option value="$PROJECT_DIR$/../javascript学习/webApi/08点小图变大图.html" />
+        <option value="$PROJECT_DIR$/../javascript学习/webApi/09点击按钮修改图片.html" />
       </list>
     </option>
   </component>
@@ -308,7 +309,7 @@
       <workItem from="1528285896380" duration="3835000" />
       <workItem from="1528374175904" duration="2307000" />
       <workItem from="1528411587626" duration="2420000" />
-      <workItem from="1528508358938" duration="614000" />
+      <workItem from="1528508358938" duration="3065000" />
     </task>
     <task id="LOCAL-00001" summary="引用传递">
       <created>1528117633943</created>
@@ -345,11 +346,32 @@
       <option name="project" value="LOCAL" />
       <updated>1528381927122</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="03修改a标签内容.html">
+      <created>1528510427142</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528510427142</updated>
+    </task>
+    <task id="LOCAL-00007" summary="07案例排他功能.html">
+      <created>1528510923970</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528510923970</updated>
+    </task>
+    <task id="LOCAL-00008" summary="08点小图变大图.html">
+      <created>1528512239476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528512239476</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25185000" />
+    <option name="totallyTimeSpent" value="27636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -395,7 +417,9 @@
     <MESSAGE value="点击按钮显示图片" />
     <MESSAGE value="02设置P标签内容.html" />
     <MESSAGE value="03修改a标签内容.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="03修改a标签内容.html" />
+    <MESSAGE value="07案例排他功能.html" />
+    <MESSAGE value="08点小图变大图.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="08点小图变大图.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -652,6 +676,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/07案例排他功能.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/08点小图变大图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../javascript学习/webApi/09点击按钮修改图片.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding />
         </state>
       </provider>
