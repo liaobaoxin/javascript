@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="隔行换色" id="btn">
+<ul id="uu">
+    <li>哈哈哈</li>
+    <li>哈哈哈</li>
+    <li>哈哈哈</li>
+    <li>哈哈哈</li>
+    <li>哈哈哈</li>
+    <li>哈哈哈</li>
+    <li>哈哈哈</li>
+    <li>哈哈哈</li>
+</ul>
+<script src="common.js"></script>
+<script>
+    my$("btn").onclick=function () {
+        var liObjs = my$("uu").getElementsByTagName("li");
+        for(var i=0;i<liObjs.length;i++){
+            liObjs[i].style.backgroundColor=i%2==0?"red":"yellow";
+        }
+    }
+</script>
+</body>
+</html>
