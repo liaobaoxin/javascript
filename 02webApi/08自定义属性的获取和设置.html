@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    ul{
+        list-style: none;
+        cursor: pointer;
+    }
+</style>
+<body>
+<ul id="uu">
+    <li>哈哈</li>
+    <li>哈哈</li>
+    <li>哈哈</li>
+    <li>哈哈</li>
+    <li>哈哈</li>
+</ul>
+
+<script src="common.js"></script>
+<script>
+    var liObjs = my$('uu').getElementsByTagName("li");
+    for (var i = 0; i < liObjs.length; i++) {
+        liObjs[i].setAttribute("score", (i + 1) * 10);
+    }
+    for (var i = 0; i < liObjs.length; i++) {
+        liObjs[i].onclick = function () {
+            alert(this.getAttribute("score"));
+        }
+    }
+
+</script>
+</body>
+</html>
