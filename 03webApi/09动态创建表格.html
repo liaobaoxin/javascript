@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            border: 2px hotpink dashed;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="表格" id="btn">
+<div id="dv"></div>
+<script src="common.js"></script>
+<script>
+    var arr = [
+        {name: "百度", href: "http://www.baidu.com"},
+        {name: "谷歌", href: "http://www.google.com"},
+        {name: "优酷", href: "http://www.youku.com"},
+        {name: "土豆", href: "http://www.tudou.com"},
+        {name: "快播", href: "http://www.kuaibo.com"},
+        {name: "爱奇艺", href: "http://www.aiqiyi.com"}
+    ];
+
+    my$('btn').onclick = function () {
+        var tabObj = document.createElement("table");
+        tabObj.border="1";
+        my$('dv').appendChild(tabObj);
+        for (var i = 0; i < arr.length; i++) {
+            var trObj = document.createElement("tr");
+            tabObj.appendChild(trObj);
+            var dt = arr[i];
+            var td1 = document.createElement("td");
+            td1.innerText = dt.name;
+            trObj.appendChild(td1);
+
+            var td2 = document.createElement("td");
+            td2.innerHTML ="<a href="+dt.href+">"+dt.name+"</a>";
+            trObj.appendChild(td2);
+        }
+
+    }
+
+</script>
+</body>
+</html>
