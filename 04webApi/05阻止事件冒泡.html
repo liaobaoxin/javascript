@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1{
+            height: 300px;
+            width: 300px;
+            background-color: aqua;
+        }
+        #div2{
+            height: 200px;
+            width: 200px;
+            background-color: cadetblue;
+        }
+        #div3{
+            height: 100px;
+            width: 100px;
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+<div id="div1">
+    <div id="div2">
+        <div id="div3"></div>
+    </div>
+</div>
+<script src="common.js"></script>
+<script>
+    my$('div1').onclick=function () {
+        console.log(this.id);
+    }
+    my$('div2').onclick=function () {
+        console.log(this.id);
+    }
+    my$('div3').onclick=function () {
+        console.log(this.id);
+        window.event.cancelBubble=true;
+    }
+</script>
+</body>
+</html>
