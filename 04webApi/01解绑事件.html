@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="按钮" id="btn1">
+<input type="button" value="解绑第一个事件" id="btn2">
+<script src="common.js"></script>
+<script>
+    function f1() {
+        console.log("你好1");
+    }
+
+    my$('btn1').addEventListener("click", f1, false);
+    my$('btn1').addEventListener("click", function () {
+        console.log("你好2");
+    }, false);
+
+    my$("btn2").onclick=function(){
+        //解绑事件时，需要在绑定事件的时候，使用命名函数
+        my$('btn1').removeEventListener("click",f1,false);
+    };
+
+</script>
+</body>
+</html>
