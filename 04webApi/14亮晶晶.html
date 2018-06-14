@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 600px;
+            height: 600px;
+            background-color: black;
+        }
+
+        span {
+            font-size: 40px;
+            color: yellow;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="亮晶晶" id="btn1">
+<div id="dv"></div>
+<script src="common.js"></script>
+<script>
+    my$("btn1").onclick = function () {
+        my$("dv").innerHTML = "<span>★</span>";
+        setInterval(function () {
+            var x = parseInt(Math.random() * 600 + 1);
+            var y = parseInt(Math.random() * 600 + 1);
+            my$("dv").firstElementChild.style.left=x+"px";
+            my$("dv").firstElementChild.style.top=y+"px";
+        }, 1);
+    }
+</script>
+</body>
+</html>
