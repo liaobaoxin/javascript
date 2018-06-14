@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<img src="" id="img"/>
+
+<script>
+    function f1() {
+        var dt = new Date();
+        var hours = dt.getHours();
+        var seconds = dt.getSeconds();
+        hours = hours < 10 ? "0" + hours : hours;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+        document.getElementById("img").src = "meimei/" + hours + "_" + seconds + ".jpg";
+    }
+
+    f1();
+    setInterval(f1, 1000);
+</script>
+</body>
+</html>
