@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<input type="button" value="停止" id="btn">
+<script src="common.js"></script>
+<script>
+    var timeId=setTimeout(function () {
+        alert("你好");
+    },10);
+    my$("btn").onclick=function () {
+        window.clearTimeout(timeId);
+    }
+</script>
+</body>
+</html>
