@@ -33,7 +33,8 @@
     };
 
     function animate(element, target) {
-        var timeId = setInterval(function () {
+        clearInterval(element.timeId);
+        element.timeId = setInterval(function () {
             //获取div当前位置
             var current = element.offsetLeft;
             //div每次移动步数
@@ -47,7 +48,7 @@
                 element.style.left = current + "px";
             } else {
                 //清理定时器
-                clearInterval(timeId);
+                clearInterval(element.timeId);
                 element.style.left = target + "px";
             }
         }, 20);
