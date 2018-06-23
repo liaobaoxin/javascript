@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    img {
+        position: absolute;
+    }
+</style>
+<body>
+
+<img src="images/tianshi.gif"  id="im"/>
+<script src="common.js"></script>
+<script>
+
+    //鼠标在页面中移动,图片跟着鼠标移动
+    document.onmousemove=function (e) {
+        //鼠标的移动的横纵坐标
+        //可视区域的横坐标
+        //可视区域的纵坐标
+        my$("im").style.left=e.clientX+"px";
+        my$("im").style.top=e.clientY+"px";
+    };
+
+
+</script>
+
+</body>
+</html>
