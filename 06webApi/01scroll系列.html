@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <style>
-    div{
+    div {
         width: 300px;
         height: 300px;
         border: 2px solid red;
@@ -50,14 +50,18 @@
 <input type="button" id="btn1" value="显示卷出去的高度">
 <script src="common.js"></script>
 <script>
-console.log("实际高度"+my$("dv").offsetHeight);
-console.log("实际宽度"+my$("dv").offsetWidth);
-console.log("内容高度"+my$("dv").scrollHeight);
-console.log("内容宽度"+my$("dv").scrollWidth);
+    console.log("实际高度" + my$("dv").offsetHeight);
+    console.log("实际宽度" + my$("dv").offsetWidth);
+    console.log("内容高度" + my$("dv").scrollHeight);
+    console.log("内容宽度" + my$("dv").scrollWidth);
 
-my$("btn1").onclick=function () {
-    console.log("卷出去的高度"+my$("dv").scrollTop);
-}
+    my$("btn1").onclick = function () {
+        console.log("卷出去的高度" + my$("dv").scrollTop);
+    };
+
+    my$("dv").onscroll=function () {
+        console.log("卷出去的高度" +this.scrollTop);
+    }
 
 </script>
 
