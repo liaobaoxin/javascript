@@ -64,7 +64,7 @@
                 if (attr == "opacity") {
                     //获取元素的当前的透明度,当前的透明度放大100倍
                     var current = getStyle(element, attr) * 100;
-                    //目标的透明度放大100倍
+                     //目标的透明度放大100倍
                     var target = json[attr] * 100;
                     var step = (target - current) / 10;
                     step = step > 0 ? Math.ceil(step) : Math.floor(step);
