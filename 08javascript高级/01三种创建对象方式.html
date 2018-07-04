@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    //通过字面量方式
+    var per1 = {
+        name: "张三",
+        age: 18,
+        eat: function () {
+            console.log("吃");
+        }
+    };
+    console.log(per1.name);
+
+    //通过系统的构造函数
+    var per2 = new Object();
+    per2.name = "李四";
+    per2.age = 18;
+    per2.eat = function () {
+        console.log("李四吃");
+    };
+    per2.eat();
+
+    //自定义构造函数
+    function Per3(name) {
+        this.name=name;
+        this.eat=function () {
+            console.log("per3吃");
+        }
+    }
+
+    var per2 = new Per3("王五");
+    console.log(per2.name);
+    per2.eat();
+</script>
+<body>
+
+<script>
+
+
+</script>
+
+</body>
+</html>
