@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function Persion(name) {
+        this.name = name;
+        this.showMe = function () {
+            alert(this.name);
+        }
+    }
+
+    //原型对象解决数据共享问题
+    var per1 = new Persion("李四");
+    console.dir(Persion);//有prototype属性
+    console.dir(per1);
+    console.log(typeof Persion.prototype);
+
+</script>
+<body>
+
+
+</body>
+</html>
