@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function Persion(name,sex) {
+        this.name=name;
+        this.sex=sex;
+    }
+
+    Persion.prototype.sayHi=function () {
+        console.log("你好");
+    };
+    var persion = new Persion("张三",18);
+    console.dir(persion)
+
+</script>
+<body>
+
+
+
+</body>
+</html>
