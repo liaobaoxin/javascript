@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function Student(name, sex) {
+        this.name = name;
+        this.sex = sex;
+    }
+
+    Student.prototype = {
+        //使用原型的简单语法，必须手动修改构造器指向
+        constructor: Student,
+        width: "500px",
+        eat:function () {
+            console.log("吃东西");
+        }
+
+    };
+    var student = new Student("张三",18);
+    console.dir(Student);
+    student.eat();
+    console.dir(student);
+
+</script>
+<body>
+
+
+</body>
+</html>
