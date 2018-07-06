@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="common.js"></script>
+
+<body>
+<input id="btn" type="button" value="点击">
+<div id="dv" style="width: 200px;height: 200px;background-color: navajowhite;"></div>
+<script>
+    function ChangeStyle(btnObj, dvObj, json) {
+        this.btnObj = btnObj;
+        this.dvObj = dvObj;
+        this.json = json;
+    }
+
+    ChangeStyle.prototype.init = function () {
+        var that = this;
+        this.btnObj.onclick = function () {
+            for (var key in that.json) {
+                that.dvObj.style[key] = that.json[key];
+            }
+        }
+    };
+
+    var json = {"width": "500px", "height": "800px", "backgroundColor": "blue", "opacity": "0.2"};
+    var cs = new ChangeStyle(my$("btn"), my$("dv"), json);
+    cs.init();//调用方法
+
+
+</script>
+
+</body>
+</html>
