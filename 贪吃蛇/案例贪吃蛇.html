@@ -17,7 +17,7 @@
 <div class="map"></div>
 </body>
 <script>
-    //自调用函数
+    //自调用函数-----食物
     (function () {
         //用来存放每个小方块食物
         var elements = [];
@@ -37,6 +37,8 @@
         //为原型添加初始化的方法（作用：在页面上显示这个食物）
         //因为食物要在地图上显示，所以需要地图这个参数
         Food.prototype.init = function (map) {
+            remove();
+
             //创建div
             var div = document.createElement("div");
             //把div加到map中
@@ -45,13 +47,57 @@
             div.style.width = this.width + "px";
             div.style.height = this.height + "px";
             div.style.backgroundColor = this.color;
+            //div脱离文档流
+            div.style.position = "absolute";
+            //随机横纵坐标
+            this.x = parseInt(Math.random() * (map.offsetWidth / this.width)) * this.width;
+            this.y = parseInt(Math.random() * (map.offsetHeight / this.height)) * this.height;
+            div.style.left = this.x + "px";
+            div.style.top = this.y + "px";
             //把div加入到数组elements中
             elements.push(div);
         };
+
+        //私有的函数----删除食物
+        function remove() {
+            //element数组中有这个食物
+            for (var i = 0; i < elements.length; i++) {
+                var ele = elements[i];
+                //找到这个子元素的父级元素，然后删除这个子元素
+                ele.parentNode.removeChild(ele);
+                //再次把elements中的这个子元素也要删除
+                elements.splice(i, 1);
+            }
+        }
+
         //把Food暴露给window，外部可以使用
         window.Food = Food;
     }());
 
+    //自调用函数-----小蛇
+    (function () {
+        //小蛇的构造函数
+        function Snake(width, height, direction) {
+            //小蛇的每个部分的宽
+            this.width = width || 20;
+            this.height = height || 20;
+            //小蛇的身体
+            this.body = [
+                {x: 3, y: 2, color: "red"},//头
+                {x: 2, y: 2, color: "orange"},//身体
+                {x: 1, y: 2, color: "orange"}//身体
+            ];
+            //方向
+            this.direction = direction || "right";
+        }
+    }());
+
+
+    var fd = new Food();
+    fd.init(document.querySelector(".map"));
+    fd.init(document.querySelector(".map"));
     console.dir(window);
+
+
 </script>
 </html>
