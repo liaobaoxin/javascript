@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function Persion(name, sex, weight) {
+        this.name = name;
+        this.sex = sex;
+        this.weight = weight;
+    }
+
+    Persion.prototype.sayHi = function () {
+        console.log("你好啊");
+    };
+
+    function Student(name,sex,weight,score) {
+        this.score=score;
+        Persion.call(this,name,sex,weight);
+    }
+
+    var student1 = new Student("张三","男","50kg",120);
+    console.log(student1.name,student1.sex,student1.weight,student1.score);
+    var student2 = new Student("李四","男","50kg",120);
+    console.log(student2.name,student2.sex,student2.weight,student2.score);
+    var student3 = new Student("王五","男","50kg",120);
+    console.log(student3.name,student3.sex,student3.weight,student3.score);
+    var student4 = new Student("赵六","男","50kg",120);
+    console.log(student4.name,student4.sex,student4.weight,student4.score);
+
+
+</script>
+<body>
+
+
+</body>
+</html>
