@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function Persion(age) {
+        this.age = age;
+    }
+
+    Persion.prototype.sayHi = function () {
+        console.log("============>" + this.age);
+    };
+
+    function Student(age) {
+        this.age = age;
+    }
+
+    var persion = new Persion(10);
+    var student = new Student(20);
+    var ff = persion.sayHi.bind(student);
+    ff();
+
+    //bind是用来复制一份
+    /**
+     * 函数名字,bind(对象，参数1，参数2,....)-------->返回值是复制之后的这个函数
+     *
+     *
+     */
+
+
+
+
+
+</script>
+<body>
+
+
+</body>
+</html>
