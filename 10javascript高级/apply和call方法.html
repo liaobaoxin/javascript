@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function f1(x, y) {
+        console.log((x + y) + "====>" + this);
+        return "这是函数的返回值";
+    }
+
+    //apply和call调用
+    var r1=f1.apply(null,[1,2]);//此时f1中的this是windows
+    console.log(r1);
+
+    var r2=f1.call(null,1,2);//此时f1中的this是windows
+    console.log(r2);
+
+    console.log("========================");
+
+    //改变this的指向
+    var obj={
+        sex:"男"
+    };
+    var r3=f1.apply(obj,[1,2]);
+    console.log(r3);
+
+    var r4=f1.call(obj,1,2);
+    console.log(r4);
+
+
+</script>
+<body>
+
+
+</body>
+</html>
