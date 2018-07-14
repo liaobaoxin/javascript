@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function f1() {
+        console.log("f1函数");
+        return function () {
+            console.log("我是函数，但是作为返回值使用");
+        }
+    }
+
+
+    var ff = f1();
+    ff();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+<body>
+
+
+</body>
+</html>
