@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function f1() {
+        var num = 10;
+        return function () {
+            num++;
+            return num;
+        }
+    }
+
+    var ff=f1();
+    console.log(ff());
+    console.log(ff());
+    console.log(ff());
+    console.log(ff());
+
+
+</script>
+<body>
+
+
+</body>
+</html>
