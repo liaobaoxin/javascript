@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li class="green">4</li>
+    <li id="five">5</li>
+    <li id="six">6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+</ul>
+<div class="green">green</div>
+<div class="green">green</div>
+<div class="green">green</div>
+<div class="green">green</div>
+</body>
+<script src="jquery-1.12.4.js"></script>
+<script>
+    $("#six,#five").css("backgroundColor","pink");
+    $("li.green").css("backgroundColor","hotpink");
+</script>
+</html>
