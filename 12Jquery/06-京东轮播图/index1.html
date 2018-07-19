@@ -100,10 +100,11 @@
       });
 
       $(".arrow-left").click(function () {
-          if(count==0){
-              count=$("li").length;
-          }
           count--;
+          if(count==-1){
+              count=$("li").length-1;
+          }
+
 
           $("li").eq(count).fadeIn().siblings("li").fadeOut();
       });
