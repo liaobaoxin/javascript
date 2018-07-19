@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .pink {
+        background-color: pink;
+    }
+
+    .hotpink {
+        background-color: hotpink;
+    }
+</style>
+<body>
+<input type="button" value="点击添加样式" id="btn1">
+<input type="button" value="点击删除样式" id="btn2">
+<input type="button" value="点击切换样式" id="btn3">
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul>
+</body>
+<script src="jquery-1.12.4.js"></script>
+<script>
+    $("#btn1").click(function () {
+        $("li").addClass("pink")
+    });
+    $("#btn2").click(function () {
+        $("li").removeClass("pink")
+    });
+    $("#btn3").click(function () {
+        $("li").toggleClass("hotpink")
+    });
+
+</script>
+</html>
