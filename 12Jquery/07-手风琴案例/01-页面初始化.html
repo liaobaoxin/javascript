@@ -49,9 +49,9 @@
         }
 
         $("#box li").mouseenter(function () {
-            $(this).animate({width:1200}).siblings().animate({width:25});
+            $(this).stop().animate({width:1200}).siblings().stop().animate({width:25});
         }).mouseleave(function () {
-            $("#box li").animate({width:240});
+            $("#box li").stop().animate({width:240});
         });
     });
 
