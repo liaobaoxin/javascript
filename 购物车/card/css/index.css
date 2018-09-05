@@ -1,0 +1,48 @@
+/*公共样式*/
+.go {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 1001;
+    right: 30px;
+    top: 30px;
+    position: fixed;
+}
+
+.more {
+    position: fixed;
+    z-index: 1001;
+    bottom: 85px;
+    right: 65px;
+}
+
+/*内容容器*/
+.content {
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    left: 50%;
+    margin-left: -450px;
+}
+
+.screen01 {
+    background: url("../images/01-bg.png") no-repeat bottom center;
+}
+
+.screen01 .goods {
+    text-align: center;
+    margin-top:230px;
+}
+.screen01 .sofa {
+    left: 230px;
+    top: 150px;
+    position: absolute;
+}
+
+.screen01 .fly {
+    position: absolute;
+    right: -50px;
+    top: 0px;
+}

@@ -2,21 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>购物车宣传</title>
     <link rel="stylesheet" href="css/jquery.fullpage.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<style>
-    .section:first-child{
-        background-color: red;
-    }
-    .section:last-child{
-        background-color: pink;
-    }
-</style>
-
 <body>
+<a class="go"><img src="images/00-go.png" alt=""></a>
+<a class="more"><img src="images/00-more.png" alt=""></a>
 <div class="container">
-    <div class="section">第一屏</div>
+    <!--每一个切换的屏幕，大小-->
+    <div class="section screen01">
+        <!--如果是大屏幕，是基于top定位，脱离显示区域-->
+        <!--固定在一个区域内 用一个固定大小的容器来装内容-->
+        <div class="content">
+            <!--商品列表，沙发，横幅-->
+            <div class="goods"><img src="images/01-goods.png" ></div>
+            <div class="sofa"><img src="images/01-sofa.png" ></div>
+            <div class="fly"><img src="images/01-fly.png" ></div>
+        </div>
+    </div>
     <div class="section">第二屏</div>
     <div class="section">
         <div class="slide">第三屏的第一屏</div>
@@ -25,11 +29,13 @@
         <div class="slide">第三屏的第四屏</div>
     </div>
     <div class="section">第四屏</div>
+    <div class="section">第五屏</div>
+    <div class="section">第六屏</div>
+    <div class="section">第七屏</div>
+    <div class="section">第八屏</div>
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery.fullpage.js"></script>
-<script>
-    $(".container").fullpage();
-</script>
+<script src="js/index.js"></script>
 </body>
 </html>
