@@ -88,8 +88,8 @@
 .screen02 .sofa{
     position: absolute;
     transform:scale(0.5) ;
-    left: 291px;
-    top: 133px;
+    left: 292px;
+    top: 132px;
     opacity: 0;
 }
 .screen02 .input{
@@ -159,5 +159,22 @@
         opacity: 1;
         transform:scale(0.7);
     }
-
+}
+/*离开第二屏幕沙发动画*/
+.screen02.leave .sofa{
+    animation: sofa02 1s linear forwards;
+}
+@keyframes sofa02 {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 1;
+        z-index: 1001;
+        transform:translate(-80px,820px) ;
+    }
+}
+/*第三屏*/
+.screen03 {
+    background: url("../images/03-bg.png") no-repeat bottom center;
 }
