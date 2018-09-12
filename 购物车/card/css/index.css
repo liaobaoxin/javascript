@@ -80,21 +80,23 @@
 .screen02 .goods {
     position: absolute;
     left: 50%;
-    margin-left:-220px;
+    margin-left: -220px;
     bottom: 208px;
-    transform:scale(0) ;
+    transform: scale(0);
     transform-origin: right bottom;
 }
-.screen02 .sofa{
+
+.screen02 .sofa {
     position: absolute;
-    transform:scale(0.5) ;
+    transform: scale(0.5);
     left: 292px;
     top: 132px;
     opacity: 0;
 }
-.screen02 .input{
+
+.screen02 .input {
     position: absolute;
-    right:171px;
+    right: 171px;
     top: 120px;
     /*左上角 transform:scale(0.7) ;*/
     /*中心transform: translate(-161px,126px);*/
@@ -103,7 +105,7 @@
     opacity: 0;
 }
 
-.screen02 .input .key{
+.screen02 .input .key {
     position: absolute;
     left: 145px;
     top: 5px;
@@ -113,29 +115,36 @@
 .screen02 .text {
     text-align: center;
 }
-.screen02 .text .text01{
+
+.screen02 .text .text01 {
 }
-.screen02 .text .text02{
+
+.screen02 .text .text02 {
     position: absolute;
     opacity: 0;
 }
-.screen02.now .input{
+
+.screen02.now .input {
     /*动画播放完成状态控制  默认属性backwards(回到起点) forwards(保持)*/
     animation: input02 3s linear forwards;
 }
-.screen02.now .key{
+
+.screen02.now .key {
     opacity: 1;
-    transition:opacity 1s linear 1s;
+    transition: opacity 1s linear 1s;
 }
-.screen02.now .goods{
+
+.screen02.now .goods {
     transform: none;
-    transition:transform 1s linear 3s;
+    transition: transform 1s linear 3s;
 }
-.screen02.now .text01{
+
+.screen02.now .text01 {
     position: absolute;
     opacity: 0;
 }
-.screen02.now .text02{
+
+.screen02.now .text02 {
     position: static;
     opacity: 1;
     transition: opacity 1s linear;
@@ -145,36 +154,173 @@
 /*2、停留在中间*/
 /*3、商品列表显示出来，搜索框动画移到右上角*/
 @keyframes input02 {
-    0%{
+    0% {
         opacity: 1;
-        transform: translate(2000px,0px);
+        transform: translate(2000px, 0px);
     }
-    33%{
-        transform: translate(-161px,126px);
+    33% {
+        transform: translate(-161px, 126px);
     }
-    66%{
-        transform: translate(-161px,126px);
+    66% {
+        transform: translate(-161px, 126px);
     }
-    100%{
+    100% {
         opacity: 1;
-        transform:scale(0.7);
+        transform: scale(0.7);
     }
 }
+
 /*离开第二屏幕沙发动画*/
-.screen02.leave .sofa{
-    animation: sofa02 1s linear forwards;
+.screen02.leave .sofa {
+    animation: sofa02 1s linear;
 }
+
 @keyframes sofa02 {
-    from{
+    from {
         opacity: 1;
     }
-    to{
+    to {
         opacity: 1;
         z-index: 1001;
-        transform:translate(-80px,820px) ;
+        transform: translate(-80px, 820px);
     }
 }
+
 /*第三屏*/
 .screen03 {
     background: url("../images/03-bg.png") no-repeat bottom center;
 }
+
+.screen03 .sofa {
+    position: absolute;
+    left: 212px;
+    top: 190px;
+    opacity: 0;
+}
+
+.screen03 .change {
+    position: absolute;
+    right: 115px;
+    bottom: 170px;
+}
+
+.screen03 .change img:last-child {
+    position: absolute;
+    opacity: 0;
+}
+
+.screen03.now .change img:first-child {
+    display: none;
+}
+
+.screen03.now .change img:last-child {
+    position: static;
+    opacity: 1;
+    transition: all 1s linear;
+}
+
+.screen03 .cart {
+    position: absolute;
+    right: 192px;
+    bottom: 100px;
+}
+
+.screen03 .cart img:last-child {
+    position: absolute;
+    opacity: 0;
+}
+
+.screen03.now .cart img:first-child {
+    display: none;
+}
+
+.screen03.now .cart img:last-child {
+    position: static;
+    opacity: 1;
+    transition: all 1s linear;
+}
+
+.screen03.now .sofa {
+    opacity: 1;
+    transition: all 0s linear 0.01s;
+    z-index: 1001;
+    /*display: block;*/
+}
+
+.screen03.leave .sofa{
+    /*1.组合写法  多个转换属性之间空格  transform:rotate() translateX() skew() scale()*/
+    /*2.如果你先旋转  那么坐标轴也会旋转*/
+    /*3. 最好是先位移在旋转*/
+    /*opacity: 1;*/
+    animation: sofa03 1s linear ;
+}
+@keyframes sofa03 {
+    from{}
+    to{
+        transform: translate(207px,777px) rotate(45deg);
+    }
+}
+
+/*第四屏*/
+.screen04 {
+    background: url("../images/04-bg.png") no-repeat center bottom;
+}
+
+.screen04 .cloud {
+    animation: cloud1 20s linear infinite alternate;
+}
+
+/*云动画*/
+@keyframes cloud1 {
+    from {
+    }
+    to {
+        transform: translateX(700px);
+    }
+}
+
+/*文字*/
+.screen04 .text {
+    text-align: center;
+    /*margin-top:10px;*/
+}
+
+.screen04 .text img:last-child {
+    position: absolute;
+    opacity: 0;
+}
+
+.screen04.now img:first-child {
+
+}
+
+.screen03.leave .sofa {
+    display: block;
+}
+
+.screen04 .sofa {
+    position: absolute;
+    top: 210px;
+    left: 400px;
+    transform: rotate(35deg);
+    opacity: 0;
+}
+
+.screen04 .cart {
+    text-align: center;
+    margin-top: 170px;
+    position: relative;
+    z-index: 1002;
+}
+.screen04.now .sofa {
+    opacity: 1;
+    transform:  translateX(1000px) rotate(35deg);
+    transition: transform 0.1s linear;
+}
+
+.screen04.now .cart {
+    transform:  translateX(1000px) ;
+    transition: transform 0.1s linear;
+}
+
+
