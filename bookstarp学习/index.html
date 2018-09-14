@@ -141,7 +141,7 @@
                 exportTypes:['excel','xlsx'],	    //导出类型
                 exportButton: $('#btn_export'),     //为按钮btn_export  绑定导出事件  自定义导出按钮(可以不用)
                 exportOptions:{
-                    //ignoreColumn: [0,0],            //忽略某一列的索引
+                    ignoreColumn: [0,0],            //忽略某一列的索引
                     fileName: '数据导出'+new Date(),              //文件名称设置
                     worksheetName: 'Sheet1',          //表格工作区名称
                     tableName: '商品数据表',
