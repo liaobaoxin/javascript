@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+
+
+</head>
+
+<style>
+    .main {
+        width: 90%;
+        height: 500px;
+        /*left:0; right:0; top:10; bottom:0;*/
+        margin: 3% auto;
+        /*background-color: pink;*/
+    }
+
+    .fl {
+        float: left;
+        background-color: pink;
+        width: 20%;
+        height: 100%;
+        text-align: right;
+    }
+
+    .fr {
+        float: right;
+        background-color: hotpink;
+        width: 80%;
+        height: 100%;
+    }
+
+    .layui-form-item .input-w-50 {
+        margin: 0px;
+        width: 50px;
+    }
+
+    .input-w-60 {
+        margin: 0px;
+        width: 20px;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+
+    .p0 {
+        padding-left: 0px;
+    }
+
+</style>
+<body>
+<div>
+    <div class="main">
+        <form class="layui-form" action="">
+            <div class="layui-form-item">
+                <label class="layui-form-label">考勤名称</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="title" required lay-verify="required" placeholder="请输入考勤名称"
+                           autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">考勤周期</label>
+                <div class="layui-input-block">
+                    <input type="checkbox" name="like[wri]" title="周一" value="周一" checked>
+                    <input type="checkbox" name="like[rea]" title="周二" value="周二" checked>
+                    <input type="checkbox" name="like[dai]" title="周三" value="周三" checked>
+                    <input type="checkbox" name="like[dai]" title="周四" value="周四" checked>
+                    <input type="checkbox" name="like[dai]" title="周五" value="周五" checked>
+                    <input type="checkbox" name="like[dai]" title="周六" value="周六">
+                    <input type="checkbox" name="like[dai]" title="周日" value="周日">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">考勤模式</label>
+                <div class="layui-input-block" >
+                    <input type="radio" name="model" value="1" title="启用中午考勤">
+                    <input type="radio" name="model" value="0" title="不启用中午考勤" >
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">上午进校</label>
+                <div class="layui-input-inline">
+                    <input type="text" id="time1" name="title" required lay-verify="required" placeholder="请选择打卡时间范围"
+                           autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">允许迟到</label>
+                    <div class="layui-input-inline" style="width: 60px;">
+                        <input type="number" name="price_min" placeholder="" autocomplete="off" class="layui-input">
+                    </div>
+                    <label class="layui-form-label" style="text-align: left;padding-left: 0px">分钟</label>
+                </div>
+            </div>
+            <div id="test" >
+                <div class="layui-form-item">
+                    <label class="layui-form-label">上午离校</label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="time1" name="title" required lay-verify="required"
+                               placeholder="请选择打卡时间范围"
+                               autocomplete="off" class="layui-input">
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">允许提前</label>
+                        <div class="layui-input-inline" style="width: 60px;">
+                            <input type="text" name="price_min" placeholder="" autocomplete="off" class="layui-input">
+                        </div>
+                        <label class="layui-form-label" style="text-align: left;padding-left: 0px">分钟</label>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">下午进校</label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="time1" name="title" required lay-verify="required"
+                               placeholder="请选择打卡时间范围"
+                               autocomplete="off" class="layui-input">
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">允许迟到</label>
+                        <div class="layui-input-inline" style="width: 60px;">
+                            <input type="text" name="price_min" placeholder="" autocomplete="off" class="layui-input">
+                        </div>
+                        <label class="layui-form-label" style="text-align: left;padding-left: 0px">分钟</label>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">下午离校</label>
+                <div class="layui-input-inline">
+                    <input type="text" id="time1" name="title" required lay-verify="required" placeholder="请选择打卡时间范围"
+                           autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">允许提前</label>
+                    <div class="layui-input-inline" style="width: 60px;">
+                        <input type="text" name="price_min" placeholder="" autocomplete="off" class="layui-input">
+                    </div>
+                    <label class="layui-form-label" style="text-align: left;padding-left: 0px">分钟</label>
+                </div>
+            </div>
+
+
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">备注</label>
+                <div class="layui-input-block">
+                    <textarea name="desc" placeholder="请输入内容" class="layui-textarea"></textarea>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="layui/layui.all.js"></script>
+<script>
+    layui.use('form', function () {
+        var form = layui.form;
+        form.on('radio(name=model)', function (data) {
+            alert(111);
+        });
+    });
+
+
+    layui.use('laydate', function () {
+        var laydate = layui.laydate;
+
+        //执行一个laydate实例
+        //时间范围
+        laydate.render({
+            elem: '#time1'
+            , type: 'time'
+            , range: true
+        });
+    });
+
+
+
+
+
+
+
+
+
+
+    layui.use(['jquery'], function(){
+        var $ = jQuery = layui.$;
+        // 你可以在下面的 js 代码中使用你熟悉的 $, jQuery
+       $("input[type=radio][name=model]").change(function () {
+           console.log("sadasda");
+       })
+//        console.log($("input:radio[name=model]").length);
+    });
+
+
+
+</script>
+</body>
+</html>
