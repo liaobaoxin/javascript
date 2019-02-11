@@ -47,7 +47,7 @@ var banner = function () {
         imageBox.style.webkitTransform = 'translateX(' + translateX + 'px)';
     };
     var index = 1;
-    var timer=setInterval(function () {
+    var timer = setInterval(function () {
         index++;
         addTransition();
         setTranslateX(-index * width);
@@ -73,34 +73,60 @@ var banner = function () {
                 /*做位移*/
                 setTranslateX(-index * width);
             }
-        setPoint(index);
+            setPoint(index);
         }
     );
 
-    var setPoint=function (index) {
-        for (var i=0;i<points.length;i++){
+    var setPoint = function (index) {
+        for (var i = 0; i < points.length; i++) {
             points[i].classList.remove('now');
         }
-        points[index-1].classList.add('now');
+        points[index - 1].classList.add('now');
     };
 
-    var startX=0;
+    var startX = 0;
     var distanceX = 0;
-    imageBox.addEventListener('touchstart',function (e) {
+    var isMove = false;
+    imageBox.addEventListener('touchstart', function (e) {
         /*清除定时器*/
         clearInterval(timer);
-        startX=e.touches[0].clientX;
+        startX = e.touches[0].clientX;
     });
-    imageBox.addEventListener('touchmove',function (e) {
-        var moveX=e.touches[0].clientX;
-        distanceX=moveX-startX;
-        var translateX=-index*width+distanceX;
+    imageBox.addEventListener('touchmove', function (e) {
+        var moveX = e.touches[0].clientX;
+        distanceX = moveX - startX;
+        var translateX = -index * width + distanceX;
         setTranslateX(translateX);
+        isMove=true;
 
     });
-
-
-
+    imageBox.addEventListener('touchend', function (e) {
+        if (isMove) {
+            if (Math.abs(distanceX) < width / 3) {
+                addTransition();
+                setTranslateX(-index * width);
+            } else {
+                if (distanceX > 0) {
+                    index--;
+                } else {
+                    index++;
+                }
+                addTransition();
+                setTranslateX(-index * width);
+            }
+        }
+        startX = 0;
+        distanceX = 0;
+        isMove=false;
+        clearInterval(timer);
+        timer = setInterval(function () {
+            index++;
+            /*加过渡*/
+            addTransition();
+            /*做位移*/
+            setTranslateX(-index * width);
+        }, 1000);
+    });
 
 
 };
