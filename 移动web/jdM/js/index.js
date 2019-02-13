@@ -3,6 +3,7 @@ window.onload = function () {
     search();
     // 轮播图
     banner();
+    downTime();
 
 };
 
@@ -97,7 +98,7 @@ var banner = function () {
         distanceX = moveX - startX;
         var translateX = -index * width + distanceX;
         setTranslateX(translateX);
-        isMove=true;
+        isMove = true;
 
     });
     imageBox.addEventListener('touchend', function (e) {
@@ -117,7 +118,7 @@ var banner = function () {
         }
         startX = 0;
         distanceX = 0;
-        isMove=false;
+        isMove = false;
         clearInterval(timer);
         timer = setInterval(function () {
             index++;
@@ -128,5 +129,27 @@ var banner = function () {
         }, 1000);
     });
 
+};
+
+var downTime = function () {
+    var time = 2 * 60 * 60;
+    var timer = setInterval(function () {
+        var spans = document.querySelector('.time').querySelectorAll('span');
+        time--;
+        spans[0].innerHTML = Math.floor(time / 3600 / 10);
+        spans[1].innerHTML = Math.floor(time / 3600) % 10;
+
+        spans[3].innerHTML = Math.floor(time % 3600/60/10);
+        spans[4].innerHTML = Math.floor(time % 3600/60) % 10;
+
+        spans[6].innerHTML = Math.floor(time % 60 / 10);
+        spans[7].innerHTML = (time % 60) % 10;
+
+        if (time <= 0) {
+            clearInterval(timer);
+        }
+
+
+    }, 1000);
 
 };
