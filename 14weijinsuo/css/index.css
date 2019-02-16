@@ -16,27 +16,36 @@ a:hover {
 a:hover {
     color: #333333;
 }
+
 /*自定义字体图标*/
 /*1.通过@font-face定义自己的字体*/
 @font-face {
     /*2.申明自己的字体名称*/
     font-family: 'wjs';
     /*3.引入字体文件（约束某一段字符代码什么图案）*/
-    src:
-            url(../fonts/MiFie-Web-Font.svg) format('svg'),
-            url(../fonts/MiFie-Web-Font.eot) format('embedded-opentype'),
-            url(../fonts/MiFie-Web-Font.ttf) format('truetype'),
-            url(../fonts/MiFie-Web-Font.woff) format('woff');
+    src: url(../fonts/MiFie-Web-Font.svg) format('svg'),
+    url(../fonts/MiFie-Web-Font.eot) format('embedded-opentype'),
+    url(../fonts/MiFie-Web-Font.ttf) format('truetype'),
+    url(../fonts/MiFie-Web-Font.woff) format('woff');
 }
+
 /*4.怎么使用维护性更好*/
-.wjs_icon{
+.wjs_icon {
     font-family: wjs;
 }
-.wjs_icon_phone::before{
+
+.wjs_icon_phone::before {
     content: "\e908";
 }
-.wjs_icon_tel::before{
+
+.wjs_icon_tel::before {
     content: "\e909";
+}
+.wjs_icon_logo::before{
+    content: "\e920";
+}
+.wjs_icon_name::before{
+    content: "\e93e";
 }
 
 /*-------------modal----------------*/
@@ -76,16 +85,147 @@ a:hover {
     left: 50%;
     margin-left: -60px;
 }
-.wjs_topBar .btn-register{
+
+.wjs_topBar .btn-register {
     border: none;
     background-color: #e92322;
     color: #fff;
     font-size: 12px;
-
     padding: 3px 12px;
 
 }
-.wjs_topBar .btn-login{
+
+.wjs_topBar .btn-login {
     color: #666;
     font-size: 12px;
+}
+
+.wjs_nav {
+    /*background-color: #f8f8f8;*/
+    border-color: #e7e7e7;
+    margin-bottom: 0px;
+}
+
+.wjs_nav .wjs_icon_logo{
+    font-size: 50px;
+    color: #e92322;
+    vertical-align: middle;
+}
+.wjs_nav .wjs_icon_name{
+    font-size: 36px;
+    color: #333;
+    vertical-align: middle;
+}
+
+.wjs_nav .navbar-brand {
+    color: #777;
+    height: 80px;
+    line-height: 50px;
+}
+
+.wjs_nav .navbar-brand:hover,
+.wjs_nav .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+
+.wjs_nav .navbar-text {
+    color: #777;
+}
+
+.wjs_nav .navbar-nav > li > a {
+    color: #666;
+    height: 80px;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.wjs_nav .navbar-nav > li > a:hover,
+.wjs_nav .navbar-nav > li > a:focus {
+    color: #666;
+    background-color: transparent;
+    border-bottom: 3px solid #e92322;
+}
+
+.wjs_nav .navbar-nav > .active > a,
+.wjs_nav .navbar-nav > .active > a:hover,
+.wjs_nav .navbar-nav > .active > a:focus {
+    color: #555;
+    /*background-color: #e7e7e7;*/
+    border-bottom: 3px solid #e92322;
+}
+
+.wjs_nav .navbar-nav > .disabled > a,
+.wjs_nav .navbar-nav > .disabled > a:hover,
+.wjs_nav .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.wjs_nav .navbar-toggle {
+    border-color: #ddd;
+}
+
+.wjs_nav .navbar-toggle:hover,
+.wjs_nav .navbar-toggle:focus {
+    background-color: #ddd;
+}
+
+.wjs_nav .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+
+.wjs_nav .navbar-collapse,
+.wjs_nav .navbar-form {
+    border-color: #e7e7e7;
+}
+
+.wjs_nav .navbar-nav > .open > a,
+.wjs_nav .navbar-nav > .open > a:hover,
+.wjs_nav .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+    .wjs_nav .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+
+    .wjs_nav .navbar-nav .open .dropdown-menu > li > a:hover,
+    .wjs_nav .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+
+    .wjs_nav .navbar-nav .open .dropdown-menu > .active > a,
+    .wjs_nav .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .wjs_nav .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+
+    .wjs_nav .navbar-nav .open .dropdown-menu > .disabled > a,
+    .wjs_nav .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .wjs_nav .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+
+.wjs_nav .navbar-link {
+    color: #777;
+}
+
+.wjs_nav .navbar-link:hover {
+    color: #333;
+}
+
+.wjs_nav .btn-link {
+    color: #777;
+}
+
+.wjs_nav .btn-link:hover,
+.wjs_nav .btn-link:focus {
+    color: #333;
 }
