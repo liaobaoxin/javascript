@@ -41,11 +41,23 @@ a:hover {
 .wjs_icon_tel::before {
     content: "\e909";
 }
-.wjs_icon_logo::before{
+
+.wjs_icon_logo::before {
     content: "\e920";
 }
-.wjs_icon_name::before{
+
+.wjs_icon_name::before {
     content: "\e93e";
+}
+
+.wjs_icon_dollar::before {
+    content: "\e903";
+}
+.wjs_icon_clock::before{
+    content: "\e906";
+}
+.wjs_icon_video::before{
+    content: "\e905";
 }
 
 /*-------------modal----------------*/
@@ -66,7 +78,7 @@ a:hover {
 }
 
 .wjs_topBar > .container > .row > div ~ div {
-    border-left: 1px solid #666;
+    border-left: 1px solid #ccc;
 }
 
 .wjs_app {
@@ -84,6 +96,7 @@ a:hover {
     position: absolute;
     left: 50%;
     margin-left: -60px;
+    z-index: 2;
 }
 
 .wjs_topBar .btn-register {
@@ -106,12 +119,13 @@ a:hover {
     margin-bottom: 0px;
 }
 
-.wjs_nav .wjs_icon_logo{
+.wjs_nav .wjs_icon_logo {
     font-size: 50px;
     color: #e92322;
     vertical-align: middle;
 }
-.wjs_nav .wjs_icon_name{
+
+.wjs_nav .wjs_icon_name {
     font-size: 36px;
     color: #333;
     vertical-align: middle;
@@ -228,4 +242,78 @@ a:hover {
 .wjs_nav .btn-link:hover,
 .wjs_nav .btn-link:focus {
     color: #333;
+}
+
+.wjs_banner .pc_imgBox {
+    display: block;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.wjs_banner .m_imgBox {
+    width: 100%;
+    display: block;
+}
+
+.wjs_banner .m_imgBox img {
+    display: block;
+    width: 100%;
+}
+
+/*信息模块*/
+.wjs_info {
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+
+.wjs_info .wjs_icon_dollar {
+    font-size: 32px;
+}
+
+.wjs_info .container div a {
+    display: block;
+    padding: 15px 0px;
+}
+
+.wjs_info .container div a:hover {
+    color: #e92322;
+}
+
+.wjs_info .container {
+    width: 900px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .wjs_info .container {
+        width: 700px;
+    }
+}
+/*预约模块*/
+.wjs_book{
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+.wjs_book > .container{
+    width: 900px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .wjs_book > .container{
+        width: 750px;
+    }
+}
+@media (max-width: 768px) {
+    .wjs_book > .container{
+        width: 100%;
+    }
+}
+.wjs_book .book{
+    color: #e92322;
+    border-bottom: 1px dashed #e92322;
+}
+.wjs_book .video:hover{
+    color: #e92322;
+}
+.wjs_book .wjs_icon{
+    font-size: 20px;
 }
