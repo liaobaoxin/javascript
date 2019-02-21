@@ -1,5 +1,6 @@
 $(function () {
     initMobileTab();
+    $('[data-toggle="tooltip"]').tooltip()
 });
 
 var getData = function (callback) {
