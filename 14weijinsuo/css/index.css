@@ -62,6 +62,58 @@ a:hover {
     content: "\e905";
 }
 
+.wjs_icon_news_01::before {
+    content: "\e90e";
+}
+
+.wjs_icon_news_02::before {
+    content: "\e90f";
+}
+
+.wjs_icon_news_03::before {
+    content: "\e910";
+}
+
+.wjs_icon_news_04::before {
+    content: "\e911";
+}
+
+.wjs_icon_partner01::before {
+    content: "\e946";
+}
+
+.wjs_icon_partner02::before {
+    content: "\e92f";
+}
+
+.wjs_icon_partner03::before {
+    content: "\e92e";
+}
+
+.wjs_icon_partner04::before {
+    content: "\e92a";
+}
+
+.wjs_icon_partner05::before {
+    content: "\e929";
+}
+
+.wjs_icon_partner06::before {
+    content: "\e931";
+}
+
+.wjs_icon_partner07::before {
+    content: "\e92c";
+}
+
+.wjs_icon_partner08::before {
+    content: "\e92b";
+}
+
+.wjs_icon_partner09::before {
+    content: "\e92d";
+}
+
 /*-------------modal----------------*/
 .wjs_topBar {
     border-bottom: 1px solid #ccc;
@@ -328,9 +380,9 @@ a:hover {
 }
 
 .wjs_product {
+    padding: 20px 0px;
     background: #f5f5f5;
     border-bottom: 1px solid #ccc;
-    /*padding: 0 0 200px 0;*/
 }
 
 .wjs_product .nav-tabs-parent {
@@ -455,11 +507,12 @@ a:hover {
     border-left: 1px dashed #666;
     position: relative;
 }
-.wjs_product .pro_right.p:last-child{
+
+.wjs_product .pro_right.p:last-child {
     color: #666666;
 }
 
-.wjs_product .pro_right .tips{
+.wjs_product .pro_right .tips {
     position: absolute;
     left: 0;
     top: 10px;
@@ -536,4 +589,261 @@ a:hover {
 
 .wjs_product .pro_left div {
     font-size: 12px;
+}
+
+/*新闻模块*/
+.wjs_news {
+    padding: 40px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.wjs_news .wjs_news_title {
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.wjs_news .wjs_news_title::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #ccc;
+    right: -6px;
+    bottom: -4px;
+    border-radius: 3px;
+}
+
+.wjs_news .wjs_news_line {
+    /*为什么绝对定位线就出来了呢？*/
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    border-left: 1px dashed #ccc;
+    left: 45px;
+    top: 0;
+}
+
+.wjs_news .wjs_news_content {
+    list-style: none;
+}
+
+.wjs_news .wjs_news_content a {
+    display: block;
+    padding: 15px 0;
+    color: #666;
+}
+
+.wjs_news .nav-tabs {
+    border-bottom: none;
+}
+
+.wjs_news .nav-tabs > li {
+    float: left;
+    margin-bottom: 0px;
+}
+
+.wjs_news .nav-tabs > li > a {
+    width: 60px;
+    height: 60px;
+    border: none;
+    font-size: 30px;
+    line-height: 60px;
+    background-color: #ccc;
+    border-radius: 30px;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .wjs_news .nav-tabs > li > a {
+        margin: 30px 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wjs_news .nav-tabs > li {
+        width: 25%;
+    }
+
+    .wjs_news .nav-tabs > li > a {
+        margin: 30px auto;
+    }
+}
+
+.wjs_news .nav-tabs > li:last-child > a {
+    margin-bottom: 0px;
+}
+
+.wjs_news .nav-tabs > li > a:hover {
+    border: none;
+    background-color: #ccc;
+}
+
+.wjs_news .nav-tabs > li.active > a,
+.wjs_news .nav-tabs > li.active > a:hover,
+.wjs_news .nav-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #e92322;
+    border: none;
+    color: #fff;
+
+}
+
+.wjs_news .nav-tabs.nav-justified {
+    width: 100%;
+    border-bottom: 0;
+}
+
+.wjs_news .nav-tabs.nav-justified > li {
+    float: none;
+}
+
+.wjs_news .nav-tabs.nav-justified > li > a {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.wjs_news .nav-tabs.nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+}
+
+@media (min-width: 768px) {
+    .wjs_news .nav-tabs.nav-justified > li {
+        display: table-cell;
+        width: 1%;
+    }
+
+    .wjs_news .nav-tabs.nav-justified > li > a {
+        margin-bottom: 0;
+    }
+}
+
+.wjs_news .nav-tabs.nav-justified > li > a {
+    margin-right: 0;
+    border-radius: 4px;
+}
+
+.wjs_news .nav-tabs.nav-justified > .active > a,
+.wjs_news .nav-tabs.nav-justified > .active > a:hover,
+.wjs_news .nav-tabs.nav-justified > .active > a:focus {
+    border: 1px solid #ddd;
+}
+
+@media (min-width: 768px) {
+    .wjs_news .nav-tabs.nav-justified > li > a {
+        border-bottom: 1px solid #ddd;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .wjs_news .nav-tabs.nav-justified > .active > a,
+    .wjs_news .nav-tabs.nav-justified > .active > a:hover,
+    .wjs_news .nav-tabs.nav-justified > .active > a:focus {
+        border-bottom-color: #fff;
+    }
+}
+
+.nav-pills > li {
+    float: left;
+}
+
+.nav-pills > li > a {
+    border-radius: 4px;
+}
+
+.nav-pills > li + li {
+    margin-left: 2px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #337ab7;
+}
+
+.nav-stacked > li {
+    float: none;
+}
+
+.nav-stacked > li + li {
+    margin-top: 2px;
+    margin-left: 0;
+}
+
+.nav-justified {
+    width: 100%;
+}
+
+.nav-justified > li {
+    float: none;
+}
+
+.nav-justified > li > a {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+}
+
+@media (min-width: 768px) {
+    .nav-justified > li {
+        display: table-cell;
+        width: 1%;
+    }
+
+    .nav-justified > li > a {
+        margin-bottom: 0;
+    }
+}
+
+.wjs_news .nav-tabs-justified {
+    border-bottom: 0;
+}
+
+.wjs_news .nav-tabs-justified > li > a {
+    margin-right: 0;
+    border-radius: 4px;
+}
+
+.wjs_news .nav-tabs-justified > .active > a,
+.wjs_news .nav-tabs-justified > .active > a:hover,
+.wjs_news .nav-tabs-justified > .active > a:focus {
+    border: 1px solid #ddd;
+}
+
+@media (min-width: 768px) {
+    .wjs_news .nav-tabs-justified > li > a {
+        border-bottom: 1px solid #ddd;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .wjs_news .nav-tabs-justified > .active > a,
+    .wjs_news .nav-tabs-justified > .active > a:hover,
+    .wjs_news .nav-tabs-justified > .active > a:focus {
+        border-bottom-color: #fff;
+    }
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+
+.tab-content > .active {
+    display: block;
+}
+
+.wjs_news .nav-tabs .dropdown-menu {
+    margin-top: -1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
