@@ -168,9 +168,12 @@ a:hover {
 }
 
 .wjs_nav {
-    /*background-color: #f8f8f8;*/
     border-color: #e7e7e7;
     margin-bottom: 0px;
+    background-color: #fff;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
 }
 
 .wjs_nav .wjs_icon_logo {
@@ -853,7 +856,7 @@ a:hover {
 .wjs_partner ul{
     list-style: none;
     padding: 0;
-    text-align: center;
+    /*text-align: center;*/
 }
 .wjs_partner ul li{
     display: inline-block;
