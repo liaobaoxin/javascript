@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@media (min-width: 320px) {
+  html {
+    color: 320px;
+    font-size: 42.66666667px;
+  }
+}
+@media (min-width: 360px) {
+  html {
+    color: 360px;
+    font-size: 48px;
+  }
+}
+@media (min-width: 375px) {
+  html {
+    color: 375px;
+    font-size: 50px;
+  }
+}
+@media (min-width: 384px) {
+  html {
+    color: 384px;
+    font-size: 51.2px;
+  }
+}
+@media (min-width: 400px) {
+  html {
+    color: 400px;
+    font-size: 53.33333333px;
+  }
+}
+@media (min-width: 414px) {
+  html {
+    color: 414px;
+    font-size: 55.2px;
+  }
+}
+@media (min-width: 424px) {
+  html {
+    color: 424px;
+    font-size: 56.53333333px;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    color: 480px;
+    font-size: 64px;
+  }
+}
+@media (min-width: 540px) {
+  html {
+    color: 540px;
+    font-size: 72px;
+  }
+}
+@media (min-width: 640px) {
+  html {
+    color: 640px;
+    font-size: 85.33333333px;
+  }
+}
+@media (min-width: 720px) {
+  html {
+    color: 720px;
+    font-size: 96px;
+  }
+}
+@media (min-width: 750px) {
+  html {
+    color: 750px;
+    font-size: 100px;
+  }
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei", sans-serif;
+  color: #333;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+input,
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  -webkit-appearance: none;
+}
+.f_left {
+  float: left;
+}
+.f_right {
+  float: right;
+}
+.clearFix::before,
+.clearFix::after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+  clear: both;
+}
+.m_l10 {
+  margin-left: 10px;
+}
+.m_r10 {
+  margin-right: 10px;
+}
+.m_t10 {
+  margin-top: 10px;
+}
+.m_b10 {
+  margin-bottom: 10px;
+}
+/*锟斤拷锟斤拷*/
+.sn_container {
+  position: relative;
+  width: 100%;
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding-top: 0.9rem;
+  padding-bottom: 1rem;
+}
+/*鐗堝績*/
+.sn_container {
+  position: relative;
+  width: 100%;
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: pink;
+  height: 555px;
+}
