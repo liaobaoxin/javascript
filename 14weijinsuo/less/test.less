@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@name: box;
+.@{name} {
+  color: red;
+}
+
+.test(@width:100px) {
+    width: @width;
+}
+
+.box1{
+  .test(200px)
+}
