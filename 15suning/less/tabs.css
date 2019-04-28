@@ -1,0 +1,16 @@
+.sn_tabs {
+  width: 100%;
+}
+.sn_tabs ul {
+  width: 100%;
+}
+.sn_tabs ul li {
+  width: 20%;
+  float: left;
+}
+.sn_tabs ul li a {
+  display: block;
+}
+.sn_tabs ul li a:last-child {
+  text-align: center;
+}
