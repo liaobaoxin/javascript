@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -17,8 +17,8 @@
     <h1 v-cloak>{{ message }}</h1>
     <h1 v-text="message"></h1>
     <p v-text="msg2"></p>
-    <p v-html="msg2"></p>
-    <input type="button" :value="message+'  22'" >
+    <p v-html="msg2" ></p>
+    <input type="button" :value="message+'  22'" @click="show" >
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script>
@@ -29,6 +29,11 @@
         data: {
             message: 'Hello Vue!',
             msg2: '<apsn style="color: red">你好</apsn>'
+        },
+        methods:{
+            show:function () {
+                alert(11);
+            }
         }
     });
 
