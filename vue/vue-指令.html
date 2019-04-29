@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        [v-cloak]{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="app">
+    <h1 v-cloak>{{ message }}</h1>
+    <h1 v-text="message"></h1>
+    <p v-text="msg2"></p>
+    <p v-html="msg2"></p>
+    <input type="button" :value="message+'  22'" >
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+
+
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue!',
+            msg2: '<apsn style="color: red">你好</apsn>'
+        }
+    });
+
+
+</script>
+</body>
+</html>
