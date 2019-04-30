@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+
+<script>
+    let obj={
+        username:"张三",
+        age:18,
+        gender:'man'
+    };
+
+    let tpl=`
+           <div>${obj.username}</div>
+           <div>${obj.age}</div>
+           <div>${obj.gender}</div>
+    `;
+
+    console.log(tpl);
+
+    function foo(param="hello") {
+        console.log(param);
+    }
+
+    foo("你好");
+
+</script>
+</body>
+</html>
