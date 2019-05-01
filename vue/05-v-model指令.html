@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+<div id="app">
+    <h1>{{msg}}</h1>
+    <input type="text" style="width: 100%" v-model="msg">
+</div>
+
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            msg:"你好"
+        }
+    });
+
+
+</script>
+</body>
+</html>
