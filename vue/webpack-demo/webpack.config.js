@@ -13,7 +13,15 @@ module.exports = {
         contentBase: 'src',
         hot: true
     },
-    plugins:[
-        new webpackge.HotModuleReplacementPlugin()
-    ]
+    plugins: [
+        new webpackge.HotModuleReplacementPlugin({
+            template:filePath.join(__dirname,'/src/index.html'),
+            filename:'index.html'
+        })
+    ],
+    module: {
+        rules: [
+            {test: /\.css$/, use: ['style-loader', 'css-loader']}
+        ]
+    }
 };
