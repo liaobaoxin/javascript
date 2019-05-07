@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./lib/vue.js"></script>
+</head>
+
+<body>
+<div id="app">
+
+</div>
+
+<script>
+
+    var tel={
+        template:"<h1>你好</h1>"
+    };
+
+    var vm=new Vue({
+        el:"#app",
+        data:{
+            comName:"login"
+        },
+        render:function (createElements) {
+            return createElements(tel);
+        }
+    });
+
+
+</script>
+</body>
+</html>
