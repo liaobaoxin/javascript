@@ -15,7 +15,8 @@
     "bootstrap": "^3.3.6",
     "jquery": "^1.12.4",
     "mint-ui": "^2.2.13",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
