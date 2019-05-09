@@ -27,7 +27,9 @@ module.exports = {
             {test: /\.(jpg|png|gif|svg)$/, use:'url-loader?limit=10&name=[hash:8]-[name].[ext]'},
             {test: /\.(ttf|eot|svg|woff|woff2)$/, use:'url-loader'},
             {test: /\.js$/, use:'babel-loader',exclude:/node_modules/},
-            {test: /\.vue$/, use: 'vue-loader'}
+            {test: /\.vue$/, use: 'vue-loader'},
+            {test: /\.scss$/, use: ['style-loader', 'css-loader', 'sass-loader'] }, // 处理 scss 文件的 loader
+            { test: /\.less$/, use: ['style-loader', 'css-loader', 'less-loader'] },
         ]
     },resolve: {
         alias: {

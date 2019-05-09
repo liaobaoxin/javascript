@@ -4,9 +4,17 @@ import VueRouter from 'vue-router'
 import './lib/css/mui.css'
 import './lib/css/icons-extra.css'
 
-import { Header } from 'mint-ui';
+import { Header,Swipe, SwipeItem  } from 'mint-ui';
+
+Vue.component(Swipe.name, Swipe);
+Vue.component(SwipeItem.name, SwipeItem);
 Vue.component(Header.name, Header);
 
+/*引入资源请求插件*/
+import VueResource from 'vue-resource'
+
+/*使用VueResource插件*/
+Vue.use(VueResource)
 
 import router from "./router.js"
 
