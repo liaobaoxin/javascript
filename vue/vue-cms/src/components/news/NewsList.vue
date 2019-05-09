@@ -2,7 +2,7 @@
     <div>
         <ul class="mui-table-view">
             <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
+                <router-link  to="/home/newsList/1" class="">
                     <img class="mui-media-object mui-pull-left"
                          src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
                     <div class="mui-media-body">
@@ -12,7 +12,7 @@
                             <span>点击：0次</span>
                         </p>
                     </div>
-                </a>
+                </router-link>
             </li>
             <li class="mui-table-view-cell mui-media">
                 <a href="javascript:;">
