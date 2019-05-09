@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h1>MemberContainer.vue</h1>
+    <div style="width:40%">
+        <h3>MemberContainer.vue</h3>
     </div>
 </template>
 

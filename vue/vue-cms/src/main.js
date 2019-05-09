@@ -22,6 +22,11 @@ import app from './app.vue'
 
 Vue.use(VueRouter);
 import 'mint-ui/lib/style.css'
+
+import moment from 'moment';
+//定义全局过滤器
+Vue.filter('dateFormat',(dataStr,pattern="YYYY-MM-DD  hh:mm:ss")=> moment(dataStr).format(pattern));
+
 new Vue({
     el:"#app",
     render:c=>c(app),
