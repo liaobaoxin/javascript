@@ -48,7 +48,6 @@
         },
         created() {
             this.getLunBoList();
-            console.log(this.LunBoList);
         },
         methods: {
             getLunBoList() {
