@@ -1,0 +1,6 @@
+<view>你好----{{msg}}</view>
+<view>{{person.name}}---{{person.age}}</view>
+<view>{{bol}}</view>
+<view>
+    <checkbox checked="{{bol}}"></checkbox>
+</view>

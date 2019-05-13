@@ -1,0 +1,6 @@
+<text selectable="{{true}}">
+你好
+</text>
+<text decode="{{true}}" space="ss">
+    你&nbsp;好
+</text>
