@@ -3,7 +3,7 @@
 	<!-- 首页导航 -->
 	<view class="nav_wrap">
 		<scroll-view class="nav" scroll-x>
-			<view class="nav_item" wx:for="{{navList}}" wx:key="{{index}}" >
+			<view bindtap="activeNav" data-index="{{index}}" class="nav_item {{index===currentIndex?'active':''}}" wx:for="{{navList}}" wx:key="{{index}}" >
 				{{item.text}}
 			</view>
 		</scroll-view>

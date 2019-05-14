@@ -4,7 +4,15 @@ Page({
    * 页面的初始数据
    */
   data: {
+    currentIndex:0,
     navList:[]
+  },
+
+  activeNav(e){
+    this.setData({
+      currentIndex:e.target.dataset.index
+    })
+    
   },
 
   /**

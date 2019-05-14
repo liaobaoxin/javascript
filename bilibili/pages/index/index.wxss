@@ -1,4 +1,8 @@
+Page{
+    color: gray;
+}
 .nav_wrap{}
+
 .nav{
     white-space: nowrap;
     padding: 5rpx 0;
@@ -7,4 +11,7 @@
     padding: 20rpx 45rpx;
     font-size: 30rpx;
     display: inline-block
+}
+.nav_item.active{
+    border-bottom: 5rpx solid  pink
 }
