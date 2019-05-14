@@ -4,14 +4,33 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    navList:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
+  getNavList(){
+    let that=this;
+    wx.request({
+      url: 'https://easy-mock.com/mock/5c1dfd98e8bfa547414a5278/bili/navList',
+      header: {
+        'Content-Type': 'application/json'
+      },
+      success: function(res) {
+        console.log(res);
+        if(res.data.code===0){
+          that.setData({
+            navList:res.data.data.navList
+          });
+          console.log(that.navList);
+        }
+        
+      }
+    })  
+  },
   onLoad: function (options) {
-    
+    this.getNavList();
   },
 
   /**

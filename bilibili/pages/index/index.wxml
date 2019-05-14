@@ -1,4 +1,13 @@
 <view class="main">
 	<MyTitle/>
+	<!-- 首页导航 -->
+	<view class="nav_wrap">
+		<scroll-view class="nav" scroll-x>
+			<view class="nav_item" wx:for="{{navList}}" wx:key="{{index}}" >
+				{{item.text}}
+			</view>
+		</scroll-view>
+	</view>
+
 </view>
 
