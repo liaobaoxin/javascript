@@ -1,5 +1,6 @@
 Page{
     color: gray;
+    padding: 10rpx
 }
 .nav_wrap{}
 
@@ -14,4 +15,61 @@ Page{
 }
 .nav_item.active{
     border-bottom: 5rpx solid  pink
+}
+
+/* 轮播图 */
+.slides{
+    margin-top: 10rpx;
+}
+.slides swiper{
+    height: 220rpx;
+}
+.slides navigator{
+    width: 100%;
+    height: 100%;
+}
+.slides image{
+    width: 100%;
+    height: 100%;
+}
+
+/* 视频列表 */
+.video_wrap{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.video_item{
+    width: 48%;
+    margin-bottom: 20rpx;
+}
+.video_img{
+    position: relative;
+}
+.video_img image{
+    width: 100%;
+    border-radius: 15rpx;
+}
+.video_img .video_info{
+    position: absolute;
+    bottom: 10rpx;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 24rpx;
+}
+.video_title{
+    font-size: 28rpx;
+    display: -webkit-box;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+   
+    word-wrap: break-word;
+    -webkit-line-clamp:2;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
 }
