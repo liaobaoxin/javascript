@@ -1,0 +1,3 @@
+<import src="../../template/tem.wxml" />
+
+<template is="search" data="{{goodsCount}}"></template>

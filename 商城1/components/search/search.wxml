@@ -1,0 +1,11 @@
+<view class="search">
+    <icon class="">
+        
+    </icon>
+    <navigator class="" url="" >
+
+        <view class="./iconfont/iconsousuo:before"></view>
+        <view class="./iconfont/iconsousuo:before"></view>
+    </navigator>
+    
+</view>
