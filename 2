@@ -1,0 +1,110 @@
+        GetCardInfoResponse response = new GetCardInfoResponse();
+        try {
+            GetCardInfoRequest request = XmlUtil.toObject(xml, GetCardInfoRequest.class);
+            response = new GetCardInfoResponse(request);
+            if (StringUtils.isEmpty(response.getError())) {
+                CardBean cardBean = cardActionService.findCardBean(request.geteRPCode(), request.getCardId());
+                if (cardBean != null) {
+                    response.setAreaCode(cardBean.getAreaCode());
+                    response.setEmpId(cardBean.getEmployeeCode());
+                    response.setCardSn(cardBean.getCardSeq());
+                    response.setCardType(cardBean.getCardType());
+                    response.setMobilePhone(cardBean.getMobilePhone());
+                    response.setCardTypeCode(cardBean.getCardTypeCode());
+                    response.setUseFlag(cardBean.getUseFlag() + "");
+                    response.setCustomerType(cardBean.getCustomerType() + "");
+                    response.setEmpFlag(cardBean.getEmpFlag() + "");
+                    response.setCardState(cardBean.getCarStats());
+                    response.setStateDate(cardBean.getStateDate());
+                    response.setCardVerifyCode(cardBean.getCardVerifyCode());
+                    response.setCardBegDate(cardBean.getStartDate());
+                    response.setCardEndDate(org.apache.commons.lang.StringUtils.isEmpty(cardBean.getEndDate())?"2038-12-31 21:59:59":cardBean.getEndDate());
+                    int icc = 0;
+                    int mm = 0;
+                    CardCostBean cardCostBean = cardActionService.findCardCostBean(request.geteRPCode(), request.getCardId());
+                    if (cardCostBean != null) {
+                        Double cardCost = cardCostBean.getCostMoney();
+                        if (cardCost != null) {
+                            icc = Double.valueOf(
+                                    ArithUtil.mul(cardCost.intValue(), 100)).intValue();
+                        }
+                        Double ManageMoney = cardCostBean.getManageMoney();
+                        if (ManageMoney != null) {
+                            mm = Double.valueOf(
+                                    ArithUtil.mul(ManageMoney.intValue(),
+                                            100)).intValue();
+                        }
+                    }
+                    response.setDepositValue(icc + "");
+                    response.setMaintenance(mm + "");
+                    response.setvQueryPsw(cardBean.getOverMoney());
+                    response.setUsePwd(cardBean.getUsePwd() + "");
+                    Double limitOneTime = cardBean.getLimitOneTime();
+                    int lot = 0;
+                    if (limitOneTime != null) {
+                        lot = Double.valueOf(
+                                ArithUtil.mul(limitOneTime.intValue(), 100)).intValue();
+                    }
+                    response.setLimitOneTime(lot + "");
+                    Double limitDay = cardBean.getLimitDay();
+                    int ld = 0;
+                    if (limitDay != null) {
+                        ld = Double.valueOf(
+                                ArithUtil.mul(limitDay.intValue(), 100)).intValue();
+                    }
+                    response.setLimitDay(ld + "");
+                    response.setPrivillege(cardBean.getPrivillege() + "");
+
+                    CardNameListBean cardNameList = cardActionService.findCardNameList(cardBean.getCardId());
+                    if (cardNameList != null) {
+                        response.setBlackCount(String.valueOf(cardNameList.getListCount()));
+                    } else {
+                        response.setBlackCount("0");
+                    }
+                    List<WalletRecord> walletList = new ArrayList<WalletRecord>();
+                    List<CardBurseBean> list = cardActionService.findCardBurse(request.geteRPCode(), request.getCardId());
+                    if (list != null && list.size() > 0) {
+                        for (int i = 0; i < list.size(); i++) {
+                            CardBurseBean bean = list.get(i);
+                            WalletRecord record = new WalletRecord();
+                            int mo = 0;
+                            // 定义精确小数点后二位，也就是保存到“分”
+                            DecimalFormat df = new DecimalFormat("#.00");
+                            Double d = Double.parseDouble(df.format(ArithUtil.mul(new Double(cardBean.getCarMoney()), 100)));
+                            mo = d.intValue();
+
+                            record.setBalance(mo + "");
+                            int allowMoney = 0;
+                            if (bean.getXqb() != null) {
+                                allowMoney = Double.valueOf(
+                                        ArithUtil.mul(Double.valueOf(bean.getXqb()), 100)).intValue();
+                            }
+
+                            CardAppTypeBean card = cardActionService.findCardAppTypeByCardId(bean.getCardAppId());
+                            CardAppTypeBean cardAppType = null;
+                            if (card != null) {
+                                cardAppType = cardActionService.findCardAppTypeById(bean.getCompany(), String.valueOf(card.getAppIdx()));
+                            }
+                            record.setAllowMoney(allowMoney + "");
+                            record.setCardSequ(bean.getCard_sequ() + "");
+                            record.setLastDealTime(bean.getCardBurseDate());
+                            if (cardAppType != null) {
+                                record.setWalletFlag(String.valueOf(cardAppType.getAppIdx()));
+                            }
+                            walletList.add(record);
+                        }
+                        response.setRecordList(walletList);
+                    }
+                    //todo:黑名单次数
+                    response.setResult(CardsUtil.RESULT_SUCEESE_VALUE);
+                } else {
+                    response.setError("没有找到卡户资料");
+                }
+            }
+        } catch (Exception ex) {
+            logger.error(ex.getMessage());
+        }
+        String token = response.token();
+        response.setToken(token);
+        xml = XmlUtil.toXml(response);
+        logger.info("getCardInfo returnXml=" + xml);
