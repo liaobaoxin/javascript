@@ -1,10 +1,27 @@
-.search navigator {
+.search {
   display: flex;
-  flex-direction: row;
+  color: #666;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
 }
-.search image {
-  width: 28rpx;
-  height: 28rpx;
+.search navigator {
+  height: 56rpx;
+  display: flex;
+  background-color: #ededed;
+  width: 90%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rpx;
+}
+.search navigator image {
+  width: 25rpx;
+  height: 25rpx;
   background: url(http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/search2-2fb94833aa.png) center no-repeat;
   background-size: 100%;
+}
+.search navigator text {
+  padding-left: 15rpx;
+  font-size: 30rpx;
 }

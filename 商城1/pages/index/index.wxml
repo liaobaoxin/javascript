@@ -1,3 +1,94 @@
 <import src="../../template/tem.wxml" />
+<view class="container">
+    <template is="search" data="{{goodsCount}}"></template>
+    <swiper class="banner" circular current autoplay indicator-dots>
+        <swiper-item wx:for="{{banner}}" wx:key="{{index}}">
+            <image src="{{item.url}}" mode="widthFix">
 
-<template is="search" data="{{goodsCount}}"></template>
+            </image>
+        </swiper-item>
+    </swiper>
+
+    <view class="m-menu">
+        <view wx:for="{{channel}}" wx:key="{{item.id}}">
+            <image src="{{item.iconUrl}}" mode="widthFix">
+
+            </image>
+
+            <text>
+                {{item.name}}
+            </text>
+        </view>
+    </view>
+
+    <view class="coupon">
+        <view class="title">
+            优惠券
+        </view>
+        <view class="couponList">
+            <view class="coupon" wx:for="{{coupon}}" wx:key="{{index}}">
+                <view class="left">
+                    <view class="discount">
+                        {{item.discount}}元
+                    </view>
+                    <view class="min">
+                        满{{item.min}}元使用
+                    </view>
+                </view>
+                <view class="right">
+                    <view class="name">{{item.name}}</view>
+                    <view class="desc">{{item.desc}}</view>
+                    <view class="days">有效期：{{item.days}}天</view>
+                </view>
+                <view class="receive" bindtap="receive">
+                    <view>
+                        领
+                    </view>
+                    <view>
+                        取
+                    </view>
+                </view>
+                <view class="tag">
+                    {{item.tag}}
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+    <view class="groupons">
+        <view class="title">
+            团购专区
+        </view>
+        <view class="item" wx:for="{{groupons}}" wx:key="{{ietm.id}}">
+
+            <view class="left">
+                <image class="" src="{{item.picUrl}}" >
+                </image>
+            </view>
+            <view class="right">
+                <view class="name">
+                    {{item.name}}
+                </view>
+                <view class="grouponMember">
+                    {{item.grouponMember}}人成团
+                </view>
+                <view class="grouponDiscount">
+                    立减{{item.grouponDiscount}}元
+                </view>
+                <view class="brief">
+                        MUJI供应商携手打造
+                </view>
+                <view class="retailPrice">
+                    现价：￥{{item.retailPrice}}
+                </view>
+                <view class="grouponPrice">
+                    团购价：{{item.grouponPrice}}
+                </view>
+
+            </view>
+        </view>
+    </view>
+
+
+</view>
