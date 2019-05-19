@@ -39,8 +39,26 @@
 
 }
 
+.one-title {
+    font-size      : 35rpx;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    height         : 130rpx;
+    margin-top     : 25rpx;
+}
+
+.two-title {
+    font-size      : 35rpx;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    height         : 130rpx;
+
+}
+
 .coupon {
-    margin-top: 25rpx;
+
 
     background-color: #fff;
 
@@ -128,6 +146,293 @@
 
 
             }
+        }
+    }
+}
+
+.groupons {
+    background-color: #fff;
+
+
+    .title {
+        height     : 130rpx;
+        font-size  : 40rpx;
+        text-align : center;
+        font-weight: 400;
+
+        line-height: 130rpx;
+    }
+
+    .item {
+        height    : 250rpx;
+        border-top: 1px solid #d9d9d9;
+        display   : flex;
+        font-size : 30rpx;
+
+        .left {
+            display: flex;
+            flex   : 1;
+
+            image {
+                width: 220rpx;
+            }
+        }
+
+        .right {
+            // padding     : 30rpx 0;
+            justify-content: center;
+            display        : flex;
+            flex           : 4;
+            flex-direction : column;
+
+            .name {
+                height: 70rpx;
+            }
+
+            .info {
+                display       : flex;
+                flex-direction: row;
+                align-self    : flex-end;
+                border        : 1rpx solid #a48143;
+                font-size     : 25rpx;
+                margin-right  : 40rpx;
+                border-radius : 2px 0 0 2px;
+
+                .grouponMember {
+                    padding         : 0 2rpx;
+                    background-color: #a48143;
+                    color           : #fff;
+                }
+
+                .grouponDiscount {
+                    padding         : 0 2rpx;
+                    background-color: #fff;
+                    color           : #a48143;
+                }
+            }
+
+            .brief {
+                color: #999;
+            }
+
+            .price {
+                display       : flex;
+                flex-direction: row;
+
+                .retailPrice {
+                    text-decoration: line-through;
+
+                    color: #999;
+                }
+
+                .grouponPrice {
+                    margin-left: 20rpx;
+                    color      : #a48143;
+                }
+            }
+        }
+    }
+}
+
+.brand {
+    background-color: #fff;
+
+    .brands {
+        display       : flex;
+        flex-direction: row;
+        flex-wrap     : wrap;
+
+        .item {
+            width   : 50%;
+            height  : 253rpx;
+            position: relative;
+        }
+
+        image {
+            width : 375rpx;
+            height: 253rpx;
+
+        }
+
+        .info {
+            position: absolute;
+            top     : 20rpx;
+            left    : 30rpx;
+
+            color: #fff;
+
+            .name {
+                font-size: 35rpx;
+
+            }
+
+            .floorPrice {
+                font-size: 25rpx;
+            }
+        }
+    }
+
+}
+
+.newGoods {
+    background-color: #fff;
+
+    .item {
+        display        : flex;
+        flex-direction : row;
+        flex-wrap      : wrap;
+        justify-content: center;
+        align-items    : center;
+
+        view {
+            width     : 375rpx;
+            text-align: center;
+
+            image {
+                width: 300rpx;
+            }
+
+            .name {
+                font-size: 30rpx;
+            }
+
+            .retailPrice {
+                font-size: 25rpx;
+                color    : #a48143;
+            }
+        }
+    }
+}
+
+.hotGoods {
+    background-color: #fff;
+
+    .item {
+        border-top: 1px solid #d9d9d9;
+        display   : flex;
+
+        .left {
+            flex: 2;
+
+            image {
+                width : 240rpx;
+                height: 240rpx;
+            }
+        }
+
+        .right {
+            justify-content: center;
+            align-items    : flex-start;
+            display        : flex;
+            font-size      : 30rpx;
+            flex-direction : column;
+            flex           : 3;
+
+            .name {
+                height: 50rpx;
+            }
+
+            .brief {
+                color: #999;
+            }
+
+            .retailPrice {
+                color: #a48143;
+            }
+        }
+    }
+
+}
+
+.topics {
+    background-color: #fff;
+
+    .topic {
+        white-space: nowrap;
+
+        height: 700rpx;
+        width : 700rpx;
+
+        .item {
+
+            display    : inline-block;
+            font-size  : 30rpx;
+            margin-left: 20rpx;
+
+            image {
+                width : 650rpx;
+                height: 380rpx;
+            }
+
+            .down {
+                width: 650rpx;
+
+                .np {
+                    display       : flex;
+                    flex-direction: row;
+
+                    .price {
+                        margin-left: 20rpx;
+                        color      : #a48143;
+                    }
+
+
+                }
+
+                .subtitle {
+                    width        : 630rpx;
+                    color        : #999;
+                    text-overflow: ellipsis;
+                    overflow     : hidden;
+                    font-size    : 25rpx;
+
+                }
+            }
+        }
+    }
+}
+
+.floorGoods {
+    .items {
+        background-color: #fff;
+        display         : flex;
+        flex-direction  : row;
+        flex-wrap       : wrap;
+        font-size       : 30rpx;
+        overflow        : hidden;
+
+        .item {
+            width        : 370rpx;
+            text-align   : center;
+            border-bottom: 2px solid #f4f4f4;
+
+
+
+            .name {
+                
+                overflow       : hidden;
+                text-overflow: ellipsis;
+                white-space    : nowrap;
+                
+                display        : block;
+                padding: 0 20rpx;
+                
+            }
+
+            .price {
+                color  : #a48143;
+                display: block;
+                margin : 20rpx 0;
+            }
+
+        }
+
+        .border-right {
+            border-right: 2px solid #f4f4f4;
+        }
+
+        image {
+            width: 360rpx;
         }
     }
 }

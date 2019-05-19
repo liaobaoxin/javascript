@@ -57,8 +57,22 @@
   margin: 0 auto;
   line-height: 1;
 }
-.coupon {
+.one-title {
+  font-size: 35rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130rpx;
   margin-top: 25rpx;
+}
+.two-title {
+  font-size: 35rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130rpx;
+}
+.coupon {
   background-color: #fff;
 }
 .coupon .title {
@@ -131,4 +145,220 @@
   height: 38rpx;
   text-align: center;
   line-height: 40rpx;
+}
+.groupons {
+  background-color: #fff;
+}
+.groupons .title {
+  height: 130rpx;
+  font-size: 40rpx;
+  text-align: center;
+  font-weight: 400;
+  line-height: 130rpx;
+}
+.groupons .item {
+  height: 250rpx;
+  border-top: 1px solid #d9d9d9;
+  display: flex;
+  font-size: 30rpx;
+}
+.groupons .item .left {
+  display: flex;
+  flex: 1;
+}
+.groupons .item .left image {
+  width: 220rpx;
+}
+.groupons .item .right {
+  justify-content: center;
+  display: flex;
+  flex: 4;
+  flex-direction: column;
+}
+.groupons .item .right .name {
+  height: 70rpx;
+}
+.groupons .item .right .info {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  border: 1rpx solid #a48143;
+  font-size: 25rpx;
+  margin-right: 40rpx;
+  border-radius: 2px 0 0 2px;
+}
+.groupons .item .right .info .grouponMember {
+  padding: 0 2rpx;
+  background-color: #a48143;
+  color: #fff;
+}
+.groupons .item .right .info .grouponDiscount {
+  padding: 0 2rpx;
+  background-color: #fff;
+  color: #a48143;
+}
+.groupons .item .right .brief {
+  color: #999;
+}
+.groupons .item .right .price {
+  display: flex;
+  flex-direction: row;
+}
+.groupons .item .right .price .retailPrice {
+  text-decoration: line-through;
+  color: #999;
+}
+.groupons .item .right .price .grouponPrice {
+  margin-left: 20rpx;
+  color: #a48143;
+}
+.brand {
+  background-color: #fff;
+}
+.brand .brands {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.brand .brands .item {
+  width: 50%;
+  height: 253rpx;
+  position: relative;
+}
+.brand .brands image {
+  width: 375rpx;
+  height: 253rpx;
+}
+.brand .brands .info {
+  position: absolute;
+  top: 20rpx;
+  left: 30rpx;
+  color: #fff;
+}
+.brand .brands .info .name {
+  font-size: 35rpx;
+}
+.brand .brands .info .floorPrice {
+  font-size: 25rpx;
+}
+.newGoods {
+  background-color: #fff;
+}
+.newGoods .item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.newGoods .item view {
+  width: 375rpx;
+  text-align: center;
+}
+.newGoods .item view image {
+  width: 300rpx;
+}
+.newGoods .item view .name {
+  font-size: 30rpx;
+}
+.newGoods .item view .retailPrice {
+  font-size: 25rpx;
+  color: #a48143;
+}
+.hotGoods {
+  background-color: #fff;
+}
+.hotGoods .item {
+  border-top: 1px solid #d9d9d9;
+  display: flex;
+}
+.hotGoods .item .left {
+  flex: 2;
+}
+.hotGoods .item .left image {
+  width: 240rpx;
+  height: 240rpx;
+}
+.hotGoods .item .right {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  font-size: 30rpx;
+  flex-direction: column;
+  flex: 3;
+}
+.hotGoods .item .right .name {
+  height: 50rpx;
+}
+.hotGoods .item .right .brief {
+  color: #999;
+}
+.hotGoods .item .right .retailPrice {
+  color: #a48143;
+}
+.topics {
+  background-color: #fff;
+}
+.topics .topic {
+  white-space: nowrap;
+  height: 700rpx;
+  width: 700rpx;
+}
+.topics .topic .item {
+  display: inline-block;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+.topics .topic .item image {
+  width: 650rpx;
+  height: 380rpx;
+}
+.topics .topic .item .down {
+  width: 650rpx;
+}
+.topics .topic .item .down .np {
+  display: flex;
+  flex-direction: row;
+}
+.topics .topic .item .down .np .price {
+  margin-left: 20rpx;
+  color: #a48143;
+}
+.topics .topic .item .down .subtitle {
+  width: 630rpx;
+  color: #999;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 25rpx;
+}
+.floorGoods .items {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 30rpx;
+  overflow: hidden;
+}
+.floorGoods .items .item {
+  width: 370rpx;
+  text-align: center;
+  border-bottom: 2px solid #f4f4f4;
+}
+.floorGoods .items .item .name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  padding: 0 20rpx;
+}
+.floorGoods .items .item .price {
+  color: #a48143;
+  display: block;
+  margin: 20rpx 0;
+}
+.floorGoods .items .border-right {
+  border-right: 2px solid #f4f4f4;
+}
+.floorGoods .items image {
+  width: 360rpx;
 }
