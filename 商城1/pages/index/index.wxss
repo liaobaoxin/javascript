@@ -301,7 +301,7 @@
 }
 .topics .topic {
   white-space: nowrap;
-  height: 700rpx;
+  height: 510rpx;
   width: 700rpx;
 }
 .topics .topic .item {
