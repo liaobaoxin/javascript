@@ -215,6 +215,9 @@
                         </view>
                     </view>
                 </view>
+                <view class="more">
+                        更多{{item.name}}好物 >
+                </view>
 
             </view>
         </view>
