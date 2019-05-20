@@ -1,7 +1,9 @@
 {
   "pages": [
+    "pages/search/search",
     "pages/index/index",
     "template/tem"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

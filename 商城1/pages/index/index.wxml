@@ -1,6 +1,8 @@
 <import src="../../template/tem.wxml" />
 <view class="container">
-    <template is="search" data="{{goodsCount}}"></template>
+    <navigator url="pages/search/search" open-type="navigate">
+        <template is="search" data="{{goodsCount}}"></template>
+    </navigator>
     <swiper class="banner" circular current autoplay indicator-dots>
         <swiper-item wx:for="{{banner}}" wx:key="{{index}}">
             <image src="{{item.url}}" mode="widthFix">
@@ -190,33 +192,34 @@
 
 
     <view class="floorGoods">
-        <view  wx:for="{{floorGoods}}" wx="{{index}}">
+        <view wx:for="{{floorGoods}}" wx="{{index}}">
             <view class="floorGood">
                 <view class="two-title">
                     {{item.name}}
                 </view>
                 <view class="items">
-                    <view class="item   {{index%2==0?'border-right':''}}"  wx:for="{{item.goodsList}}" wx:key="{{item.id}}">
+                    <view class="item   {{index%2==0?'border-right':''}}" wx:for="{{item.goodsList}}"
+                        wx:key="{{item.id}}">
                         <view class="upper">
                             <image src="{{item.picUrl}}" mode="widthFix">
 
                             </image>
                         </view>
                         <view class="down">
-                            
-                                <view class="name" >
-                                    {{item.name}}
-                                </view>
-                                <view class="price">
-                                    ￥{{item.retailPrice}}
-                                </view>
-                            
+
+                            <view class="name">
+                                {{item.name}}
+                            </view>
+                            <view class="price">
+                                ￥{{item.retailPrice}}
+                            </view>
+
 
                         </view>
                     </view>
                 </view>
                 <view class="more">
-                        更多{{item.name}}好物 >
+                    更多{{item.name}}好物 >
                 </view>
 
             </view>

@@ -1,0 +1,27 @@
+<view class="container">
+    <view class="heard">
+        <view class="search">
+            <image class="icon" mode="widthFix"
+                src="http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/search2-2fb94833aa.png">
+            </image>
+            <input class="text" placeholder="{{defaultKeyword.keyword}}" confirm-type="搜索"
+                bindinput="inputChange"></input>
+        </view>
+        <view class="cancle">取消</view>
+    </view>
+
+
+    <view class="hotSearch" wx:if="{{!keyword}}">
+        <view class="info">
+            <view class="title">热门搜索</view>
+            <view class="item" wx:for="{{hotKeywordList}}" wx:key="{{item.id}}">
+                {{item.keyword}}
+            </view>
+        </view>
+    </view>
+    <view>
+
+        <van-button type="primary">按钮</van-button>
+        <van-search value="{{ keyword }}" placeholder="{{defaultKeyword.keyword}}" />
+    </view>
+</view>
