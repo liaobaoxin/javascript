@@ -1,0 +1,79 @@
+page {
+    min-height      : 100%;
+    background-color: #f4f4f4;
+}
+
+.container {
+    height: 1200rpx;
+
+    .van-search {
+        padding: 5px 16px;
+
+    }
+}
+
+.hotSearch {
+    background-color: #fff;
+    padding-top     : 20rpx;
+    padding-left    : 20rpx;
+    font-size       : 30rpx;
+
+    .item {
+        margin   : 20rpx;
+        border   : 2rpx solid #999;
+        display  : inline-block;
+        padding  : 5rpx;
+        font-size: 25rpx;
+    }
+}
+
+.helpKeyword {
+    .item {
+        padding-left    : 20rpx;
+        height          : 70rpx;
+        background-color: #fff;
+        display         : flex;
+        justify-content : flex-start;
+        align-items     : center;
+        font-size       : 25rpx;
+    }
+}
+
+.searchResult {
+    .sort {
+        background-color: #fff;
+        display         : flex;
+        justify-content : space-around;
+        align-items     : center;
+        height          : 70rpx;
+        border          : 3rpx solid #f4f4f4;
+        font-size       : 30rpx;
+    }
+
+
+    .goodsList {
+        background-color: #fff;
+        display  : flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+        font-size: 30rpx;
+        .goods {
+          
+            .item {
+                border: 1px solid #f4f4f4;
+                width          : 370rpx;
+                display        : flex;
+                flex-flow      : column;
+                justify-content: center;
+                align-items    : center;
+
+                image {
+                    width: 370rpx;
+                }
+                .retailPrice{
+                    color: #b4282d;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+<view class="container">
+    <van-search value="{{ keyword }}" placeholder="{{defaultKeyword.keyword}}" use-action-slot bind:change="inputChange"
+        bind:search="onSearch" bind:clear="clearKeyword">
+        <view slot="action" bind:tap="onSearch">搜索</view>
+    </van-search>
+
+    <view wx:if="{{!searchStatus}}">
+
+
+        <view class="hotSearch" wx:if="{{!keyword}}">
+            <view class="info">
+                <view class="title">热门搜索</view>
+                <view class="item" wx:for="{{hotKeywordList}}" wx:key="{{item.id}}">
+                    {{item.keyword}}
+                </view>
+            </view>
+        </view>
+
+        <view class="helpKeyword" wx:if="{{keyword&&helpKeyword.length>0}}">
+            <view class="item" wx:for="{{helpKeyword}}" wx:key="{{item.id}}">
+                {{item}}
+            </view>
+        </view>
+    </view>
+
+    <view class="searchResult" wx:if="{{searchStatus}}">
+        <view class="sort">
+            <view>综合</view>
+            <view>价格</view>
+            <view>分类</view>
+        </view>
+        <view class="goodsList">
+            <view class="goods" wx:for="{{goodsList}}" wx:key="{{item.id}}">
+                <view class="item">
+                    <image src="{{item.picUrl}}" mode="widthFix">
+
+                    </image>
+                    <view class="name">{{item.name}}</view>
+                    <view class="retailPrice">￥{{item.retailPrice}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+
+
+</view>

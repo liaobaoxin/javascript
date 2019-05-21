@@ -1,3 +1,230 @@
 <import src="../../template/tem.wxml" />
+<view class="container">
+    <navigator url="pages/search/search" open-type="navigate">
+        <template is="search" data="{{goodsCount}}"></template>
+    </navigator>
+    <swiper class="banner" circular current autoplay indicator-dots>
+        <swiper-item wx:for="{{banner}}" wx:key="{{index}}">
+            <image src="{{item.url}}" mode="widthFix">
 
-<template is="search" data="{{goodsCount}}"></template>
+            </image>
+        </swiper-item>
+    </swiper>
+
+    <view class="m-menu">
+        <view wx:for="{{channel}}" wx:key="{{item.id}}">
+            <image src="{{item.iconUrl}}" mode="widthFix">
+
+            </image>
+
+            <text>
+                {{item.name}}
+            </text>
+        </view>
+    </view>
+
+    <view class="coupon">
+        <view class="one-title">
+            优惠券
+        </view>
+        <view class="couponList">
+            <view class="coupon" wx:for="{{coupon}}" wx:key="{{index}}">
+                <view class="left">
+                    <view class="discount">
+                        {{item.discount}}元
+                    </view>
+                    <view class="min">
+                        满{{item.min}}元使用
+                    </view>
+                </view>
+                <view class="right">
+                    <view class="name">{{item.name}}</view>
+                    <view class="desc">{{item.desc}}</view>
+                    <view class="days">有效期：{{item.days}}天</view>
+                </view>
+                <view class="receive" bindtap="receive">
+                    <view>
+                        领
+                    </view>
+                    <view>
+                        取
+                    </view>
+                </view>
+                <view class="tag">
+                    {{item.tag}}
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+    <view class="groupons">
+        <view class="one-title">
+            团购专区
+        </view>
+        <view class="item" wx:for="{{groupons}}" wx:key="{{ietm.id}}">
+
+            <view class="left">
+                <image class="" src="{{item.picUrl}}" mode="widthFix">
+                </image>
+            </view>
+            <view class="right">
+                <view class="name">
+                    {{item.name}}
+                </view>
+                <view class="info">
+                    <view class="grouponMember">
+                        {{item.grouponMember}}人成团
+                    </view>
+                    <view class="grouponDiscount">
+                        立减{{item.grouponDiscount}}
+                    </view>
+                </view>
+                <view class="brief">
+                    {{item.brief}}
+                </view>
+                <view class="price">
+                    <view class="retailPrice">
+                        现价：￥{{item.retailPrice}}
+                    </view>
+                    <view class="grouponPrice">
+                        团购价：￥{{item.grouponPrice}}
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="brand">
+        <view class="one-title">
+            品牌制造商直供
+        </view>
+        <view class="brands">
+            <view class="item" wx:for="{{brands}}" wx:key="{{item.id}}">
+                <image src="{{item.picUrl}}">
+                </image>
+                <view class="info">
+                    <view class="name">{{item.name}}</view>
+                    <view class="floorPrice">{{item.floorPrice}}元起</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="newGoods">
+        <view class="one-title">
+            周一周四 · 新品首发
+        </view>
+        <view class="item">
+
+
+            <view wx:for="{{newGoods}}" wx:key="{{item.id}}">
+                <image src="{{item.picUrl}}" mode="widthFix">
+
+                </image>
+                <view class="name">
+                    {{item.name}}
+                </view>
+                <view class="retailPrice">
+                    ￥{{item.retailPrice}}
+                </view>
+
+            </view>
+        </view>
+    </view>
+
+    <view class="hotGoods">
+        <view class="one-title">
+            人气推荐
+        </view>
+        <view class="item" wx:for="{{hotGoods}}" wx:key="{{item.id}}">
+            <view class="left">
+                <image src="{{item.picUrl}}" mode="widthFix">
+
+                </image>
+            </view>
+            <view class="right">
+                <view class="name">
+                    {{item.name}}
+                </view>
+                <view class="brief">
+                    {{item.brief}}
+                </view>
+                <view class="retailPrice">
+                    ￥{{item.retailPrice}}
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="topics">
+        <view class="one-title">
+            专题精选
+        </view>
+
+        <scroll-view scroll-x="true" class="topic">
+            <view class="item" wx:for="{{topics}}" wx:key="{{item.id}}">
+                <view class="upper">
+                    <image src="{{item.picUrl}}" background-size="cover">
+
+                    </image>
+                </view>
+                <view class="down">
+                    <view class="np">
+                        <text class="name">
+                            {{item.title}}
+                        </text>
+                        <text class="price">
+                            ￥{{item.price}}起
+                        </text>
+                    </view>
+                    <view class="subtitle">
+                        {{item.subtitle}}
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+
+    </view>
+
+
+
+
+
+    <view class="floorGoods">
+        <view wx:for="{{floorGoods}}" wx="{{index}}">
+            <view class="floorGood">
+                <view class="two-title">
+                    {{item.name}}
+                </view>
+                <view class="items">
+                    <view class="item   {{index%2==0?'border-right':''}}" wx:for="{{item.goodsList}}"
+                        wx:key="{{item.id}}">
+                        <view class="upper">
+                            <image src="{{item.picUrl}}" mode="widthFix">
+
+                            </image>
+                        </view>
+                        <view class="down">
+
+                            <view class="name">
+                                {{item.name}}
+                            </view>
+                            <view class="price">
+                                ￥{{item.retailPrice}}
+                            </view>
+
+
+                        </view>
+                    </view>
+                </view>
+                <view class="more">
+                    更多{{item.name}}好物 >
+                </view>
+
+            </view>
+        </view>
+    </view>
+
+
+</view>
