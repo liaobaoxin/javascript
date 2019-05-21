@@ -1,14 +1,8 @@
 <view class="container">
-    <view class="heard">
-        <view class="search">
-            <image class="icon" mode="widthFix"
-                src="http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/search2-2fb94833aa.png">
-            </image>
-            <input class="text" placeholder="{{defaultKeyword.keyword}}" confirm-type="搜索"
-                bindinput="inputChange"></input>
-        </view>
-        <view class="cancle">取消</view>
-    </view>
+    <van-search value="{{ keyword }}" placeholder="{{defaultKeyword.keyword}}" use-action-slot bind:change="inputChange"
+        bind:search="onSearch" bind:clear="clearKeyword">
+        <view slot="action" bind:tap="onSearch">搜索</view>
+    </van-search>
 
 
     <view class="hotSearch" wx:if="{{!keyword}}">
@@ -19,9 +13,31 @@
             </view>
         </view>
     </view>
-    <view>
 
-        <van-button type="primary">按钮</van-button>
-        <van-search value="{{ keyword }}" placeholder="{{defaultKeyword.keyword}}" />
+    <view class="helpKeyword" wx:if="{{keyword&&helpKeyword.length>0}}">
+        <view class="item" wx:for="{{helpKeyword}}" wx:key="{{item.id}}">
+            {{item}}
+        </view>
     </view>
+
+
+    <view class="searchResult" wx:if="{{searchStatus}}">
+        <view class="sort">
+            <view>综合</view>
+            <view>价格</view>
+            <view>分类</view>
+        </view>
+
+        <view class="goods" wx:for="goodsList" wx:key={{item.id}}>
+            <image  src="{{item.picUrl}}" mode="widthFix" >
+                
+            </image>
+            <view class="name">{{item.name}}</view>
+            <view class="retailPrice">{{item.retailPrice}}</view>
+        </view>
+    </view>
+
+
+
+
 </view>

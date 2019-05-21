@@ -6,10 +6,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-    "keyword": null,
-    "defaultKeyword": null,
-    "hotKeywordList": null,
-    "historyKeywordList": null
+    keyword: '',
+    searchStatus: false,
+    goodsList: [],
+    helpKeyword: [],
+    historyKeyword: [],
+    categoryFilter: false,
+    currentSort: 'name',
+    currentSortType: 'default',
+    currentSortOrder: 'desc',
+    filterCategory: [],
+    defaultKeyword: {},
+    hotKeyword: [],
+    page: 1,
+    limit: 20,
+    categoryId: 0
   },
 
   getSearchKeyword() {
@@ -23,12 +34,109 @@ Page({
   },
   inputChange(e) {
     this.setData({
-      keyword: e.detail.value
+      keyword: e.detail
     })
-    console.log(e.detail.value);
-    console.log(this);
-
+    if (e.detail) {
+      this.getHelpKeyword();
+    }
   },
+
+  getHelpKeyword() {
+    utils.request(api.SearchHelper, {
+      keyword: this.data.keyword
+    }).then(res => {
+        if (res.errno === 0) {
+          if (res.data.length > 0) {
+            this.setData({
+              helpKeyword: res.data
+            });
+          }
+        }
+      }
+
+    )
+  },
+
+  onSearch(e) {    
+    if (e.detail) {
+      this.setData({
+        searchStatus:true
+      });
+      this.getSearchResult(e.detail);
+    }
+  },
+
+  getSearchResult(keyword) {
+    if (keyword === '') {
+      keyword = this.data.defaultKeyword.keyword;
+    }
+    this.setData({
+      keyword: keyword,
+      page: 1,
+      categoryId: 0,
+      goodsList: []
+    });
+
+    this.getGoodsList();
+  },
+
+  getGoodsList: function () {
+
+    utils.request(api.GoodsList, {
+      keyword: this.data.keyword,
+      page: this.data.page,
+      limit: this.data.limit,
+      sort: this.data.currentSort,
+      order: this.data.currentSortOrder,
+      categoryId: this.data.categoryId
+    }).then(res=> {
+      if (res.errno === 0) {
+        this.setData({
+          searchStatus: true,
+          categoryFilter: false,
+          goodsList: res.data.list,
+          filterCategory: res.data.filterCategoryList
+        });
+      }
+
+      //重新获取关键词
+      this.getSearchKeyword();
+    });
+  },
+
+
+  getGoodsList: function () {
+      utils.request(api.GoodsList, {
+          keyword: this.data.keyword,
+          page: this.data.page,
+          limit: this.data.limit,
+          sort: this.data.currentSort,
+          order: this.data.currentSortOrder,
+          categoryId: this.data.categoryId
+        }).then( res=> {
+            if (res.errno === 0) {
+              this.setData({
+                searchStatus: true,
+                categoryFilter: false,
+                goodsList: res.data.list,
+                filterCategory: res.data.filterCategoryList
+              });
+            }
+
+      //重新获取关键词
+      this.getSearchKeyword();
+    });
+  },
+
+  clearKeyword: function() {
+    this.setData({
+      keyword: null,
+      searchStatus: false,
+      helpKeyword:[]
+    });
+  },
+
+
 
   /**
    * 生命周期函数--监听页面加载

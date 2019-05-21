@@ -1,39 +1,14 @@
-.heard {
-    display: flex;
-    height: 90rpx;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    border-bottom: 2px solid #f4f4f4;
-    font-size: 30rpx;
+page {
+    min-height: 100%;
+    background-color: #f4f4f4;
+}
 
-    .search {
-        margin-left: 30rpx;
-        display: flex;
+.container {
+    height: 1200rxp;
 
-        flex: 10;
+    .van-search {
+        padding: 5px 16px;
 
-        background-color: #f4f4f4;
-
-
-        height: 60rpx;
-        line-height: 60rpx;
-        color: #999;
-
-        image {
-
-            line-height: 60rpx;
-            width: 30rpx;
-            vertical-align: middle;
-            margin: auto 20rpx auto 40rpx;
-
-        }
-    }
-
-    .cancle {
-        color: #333;
-        text-align: center;
-        flex: 2;
     }
 }
 
@@ -44,10 +19,34 @@
     font-size: 30rpx;
 
     .item {
-        margin-top: 20rpx;
+        margin: 20rpx;
         border: 2rpx solid #999;
         display: inline-block;
         padding: 5rpx;
         font-size: 25rpx;
+    }
+}
+
+.helpKeyword {
+    .item {
+        padding-left: 20rpx;
+        height: 70rpx;
+        background-color: #fff;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 25rpx;
+    }
+}
+
+.searchResult {
+    .sort {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70rpx;
+        border: 3rpx solid #f4f4f4;
+        font-size: 30rpx;
     }
 }
