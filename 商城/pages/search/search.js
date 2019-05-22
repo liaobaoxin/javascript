@@ -61,12 +61,14 @@ Page({
         )
     },
 
-    onSearch(e) {
-        if (e.detail) {
+    onSearch() {
+        
+        
+        if (this.data.keyword) {
             this.setData({
                 searchStatus:true
             });
-            this.getSearchResult(e.detail);
+            this.getSearchResult(this.data.keyword);
         }
     },
 
@@ -109,28 +111,7 @@ Page({
     },
 
 
-    getGoodsList: function () {
-        utils.request(api.GoodsList, {
-            keyword: this.data.keyword,
-            page: this.data.page,
-            limit: this.data.limit,
-            sort: this.data.currentSort,
-            order: this.data.currentSortOrder,
-            categoryId: this.data.categoryId
-        }).then( res=> {
-            if (res.errno === 0) {
-                this.setData({
-                    searchStatus: true,
-                    categoryFilter: false,
-                    goodsList: res.data.list,
-                    filterCategory: res.data.filterCategoryList
-                });
-            }
 
-            //重新获取关键词
-            this.getSearchKeyword();
-        });
-    },
 
     clearKeyword: function() {
         this.setData({

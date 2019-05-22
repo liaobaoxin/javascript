@@ -6,5 +6,6 @@ module.exports={
     IndexUrl: WxApiRoot + 'home/index', //首页数据接口
     SearchIndex: WxApiRoot + 'search/index', //搜索关键字
     SearchHelper: WxApiRoot + 'search/helper',////搜索帮助
-    GoodsList: WxApiRoot + 'goods/list' //获得商品列表
+    GoodsList: WxApiRoot + 'goods/list', //获得商品列表
+    GoodsDetail: WxApiRoot + 'goods/detail', //获得商品的详情
 }

@@ -59,4 +59,5 @@ page {
 }
 .searchResult .goodsList .goods .item .retailPrice {
   color: #b4282d;
+  margin: 20rpx 0;
 }
