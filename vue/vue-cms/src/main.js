@@ -9,13 +9,16 @@ import { Header,Swipe, SwipeItem  } from 'mint-ui';
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
 Vue.component(Header.name, Header);
+import {Lazyload} from 'mint-ui';
+Vue.use(Lazyload);
+
 
 /*引入资源请求插件*/
 import VueResource from 'vue-resource'
 
 /*使用VueResource插件*/
-Vue.use(VueResource)
-
+Vue.use(VueResource);
+Vue.http.options.root = 'http://www.liulongbin.top:3005/api/';
 import router from "./router.js"
 
 import app from './app.vue'
@@ -29,7 +32,11 @@ Vue.filter('dateFormat',(dataStr,pattern="YYYY-MM-DD  hh:mm:ss")=> moment(dataSt
 
 new Vue({
     el:"#app",
+    http: {
+        root: '/root'
+      },
     render:c=>c(app),
     router
+   
 });
 

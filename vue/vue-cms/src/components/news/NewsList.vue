@@ -1,236 +1,43 @@
 <template>
     <div>
         <ul class="mui-table-view">
-            <li class="mui-table-view-cell mui-media">
-                <router-link  to="/home/newsList/1" class="">
+            <li class="mui-table-view-cell mui-media" v-for="item in newsList" :key="item.id">
+                <router-link v-bind:to="'/home/newsList/'+item.id"  class="">
                     <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
+                         :src="item.img_url">
                     <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
+                        <h1>{{item.title}}</h1>
                         <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
+                            <span>发表时间：{{item.add_time | dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
+                            <span>点击：{{item.click}}次</span>
                         </p>
                     </div>
                 </router-link>
             </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
-            <li class="mui-table-view-cell mui-media">
-                <a href="javascript:;" class="">
-                    <img class="mui-media-object mui-pull-left"
-                         src="https://avatars1.githubusercontent.com/u/31310075?s=460&v=4">
-                    <div class="mui-media-body">
-                        <h1>幸福一家人</h1>
-                        <p class="mui-ellipsis">
-                            <span>发表时间：{{date|dateFormat('YYYY-MM-DD  hh:mm:ss')}}</span>
-                            <span>点击：0次</span>
-                        </p>
-                    </div>
-                </a>
-            </li>
+
         </ul>
     </div>
 </template>
 
 <script>
-    export  default {
-        data:function () {
-            return {date:new Date()};
+    export default {
+        data: function () {
+            return {date: new Date(),newsList:[]};
+        },
+        methods:{
+            getNewList(){
+                this.$http.get("getnewslist").then(res=>{
+                    console.log(res);
+                    if (res.body.status===0){
+                        this.newsList=res.body.message;
+                    }
+                })
+            }
+        },
+        created:function () {
+            this.getNewList()
         }
+
     }
 </script>
 <style lang="scss" scoped>
