@@ -49,7 +49,7 @@
             postComment() {
                 // 校验是否为空内容
                 if (this.msg.trim().length === 0) {
-                    return Toast("评论内容不能为空！");
+                    return Toast("评论内容不能为空！")
                 }
 
                 // 发表评论
