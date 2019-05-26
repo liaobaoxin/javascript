@@ -2,7 +2,7 @@
     <div>
         <ul class="mui-table-view">
             <li class="mui-table-view-cell mui-media" v-for="item in newsList" :key="item.id">
-                <router-link v-bind:to="'/home/newsList/'+item.id"  class="">
+                <router-link v-bind:to="'/home/newsList/'+item.id" class="">
                     <img class="mui-media-object mui-pull-left"
                          :src="item.img_url">
                     <div class="mui-media-body">
@@ -22,21 +22,21 @@
 <script>
     export default {
         data: function () {
-            return {date: new Date(),newsList:[]};
+            return {date: new Date(), newsList: []};
         },
-        methods:{
-            getNewList(){
-                this.$http.get("getnewslist").then(res=>{
+        methods: {
+            getNewList() {
+                this.$http.get("getnewslist").then(res => {
                     console.log(res);
-                    if (res.body.status===0){
-                        this.newsList=res.body.message;
+                    if (res.body.status === 0) {
+                        this.newsList = res.body.message;
                     }
                 })
             }
         },
-        created:function () {
+        created: function () {
             this.getNewList()
-        }
+        }, props:["id"]
 
     }
 </script>

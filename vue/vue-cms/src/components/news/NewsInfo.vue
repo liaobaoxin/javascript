@@ -1,5 +1,5 @@
 <template>
-    <div class="newsInfo-container">
+    <div class="newsInfo-container" v-if="newsInfo != null">
         <h3 class="title">{{newsInfo.title}}</h3>
         <div class="subtitle">
             <div class="time">发表时间：{{newsInfo.add_time | dateFormat}}</div>
@@ -8,7 +8,7 @@
         <hr>
         <div class="content" v-html="newsInfo.content"></div>
 
-        <component-box></component-box>
+        <component-box :id="this.id"></component-box>
     </div>
 </template>
 

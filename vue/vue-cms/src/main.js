@@ -4,11 +4,12 @@ import VueRouter from 'vue-router'
 import './lib/css/mui.css'
 import './lib/css/icons-extra.css'
 
-import { Header,Swipe, SwipeItem  } from 'mint-ui';
+import { Header,Swipe, SwipeItem,Button  } from 'mint-ui';
 
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
 Vue.component(Header.name, Header);
+Vue.component(Button.name, Button);
 import {Lazyload} from 'mint-ui';
 Vue.use(Lazyload);
 
@@ -32,9 +33,6 @@ Vue.filter('dateFormat',(dataStr,pattern="YYYY-MM-DD  hh:mm:ss")=> moment(dataSt
 
 new Vue({
     el:"#app",
-    http: {
-        root: '/root'
-      },
     render:c=>c(app),
     router
    
